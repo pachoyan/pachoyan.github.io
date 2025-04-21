@@ -7,7 +7,6 @@ date: 2025-04-21 20:00:00 +0800
 categories: [git]
 tags: [git]
 pin: false
-media_subpath: '/posts/202504212'
 ---
 
 ## Create Stash with a Single File/Path

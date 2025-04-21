@@ -62,7 +62,11 @@ gh auth login
 
 Create a Github Repository named scoop-bucket by using the gh cli
 
-> 👀 If you prefer the repo to be private replace — public with — private
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> If you prefer the repo to be private replace — public with — private
+{: .prompt-tip }
+<!-- markdownlint-restore -->
 
 ```bash
 gh repo create --public --add-readme scoop-bucket
@@ -132,7 +136,11 @@ gh gist create --public scripts/hello-scoop.ps1
 # https://gist.github.com/{username}/{gist_id}
 ```
 
-> 👀 If you prefer you can get the raw link from the repository instead of creating the gist.
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> If you prefer you can get the raw link from the repository instead of creating the gist.
+{: .prompt-tip }
+<!-- markdownlint-restore -->
 
 ### Create a scoop manifest
 
