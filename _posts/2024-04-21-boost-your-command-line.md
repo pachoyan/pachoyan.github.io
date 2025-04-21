@@ -4,7 +4,7 @@ description: >-
   List of modern cli tools that increase your productivity on the terminal.
 author: pachoyan
 date: 2025-04-21 20:00:00 +0800
-categories: [terminal, cli, tool]
+categories: [terminal, cli]
 tags: [terminal, cli, tool]
 pin: true
 ---
