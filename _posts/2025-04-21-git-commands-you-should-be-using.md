@@ -2,10 +2,10 @@
 title: Git Commands you should be using - Enhance Your Workflow
 description: >-
   I recommend you to start using these git commands if you are not.
-author: cotes
+author: pachoyan
 date: 2025-04-21 20:00:00 +0800
-categories: [git, svc]
-tags: [git, svc]
+categories: [git]
+tags: [git]
 pin: false
 media_subpath: '/posts/202504212'
 ---
