@@ -6,8 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [windows, powershell]
 tags: [windows, powershell]
-pin: false
-media_subpath: '/posts/202504213'
+pin: true
 ---
 
 ## Introduction
