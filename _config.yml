@@ -15,10 +15,8 @@ timezone:
 # ↓ --------------------------
 
 title: Pau's Blog
-
-tagline: A text-focused Jekyll theme # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
+tagline: My journey with different technologies.
+description: >-
   Welcome to my blog.
 
 # Fill in the protocol & hostname for your site.
@@ -29,7 +27,7 @@ github:
   username: pachoyan # change to your GitHub username
 
 social:
-  name: your_full_name
+  name: Pau Chorro Yanguas
   email: pauchorroyanguas@gmail.com
   links:
     - https://twitter.com/username
@@ -50,37 +48,13 @@ webmaster_verifications:
 
 # Web Analytics Settings
 analytics:
-  google:
-    id: # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
-  umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
-  matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
-  cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
-  fathom:
-    id: # fill in your Fathom Site ID
+    id: "pachoyan"
 
-# Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: "goatcounter"
 
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
-#
-theme_mode: # [light | dark]
+theme_mode: light
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
