@@ -8,7 +8,7 @@ date: 2025-04-21 20:00:00 +0800
 categories: [Blogging, Tutorial]
 tags: [getting started]
 pin: true
-media_subpath: '/posts/20250421'
+media_subpath: '/posts/202504211'
 ---
 
 ## Creating a Site Repository
