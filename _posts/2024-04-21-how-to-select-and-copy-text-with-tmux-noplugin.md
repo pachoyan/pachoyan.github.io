@@ -21,7 +21,7 @@ Although I still use tmux-yank and tmux-copycat, I believe nowadays there’s no
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> Use the q to exit the copy mode
+> Use the `q` to exit the copy mode
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
