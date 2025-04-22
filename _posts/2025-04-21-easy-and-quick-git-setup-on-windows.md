@@ -6,7 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [git, windows]
 tags: [windows, git, terminal]
-pin: false
+pin: true
 ---
 
 ## Install

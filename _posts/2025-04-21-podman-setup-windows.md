@@ -129,7 +129,7 @@ kubectl cluster-info --context kind-kind-cluster
 
 #### Podman Machine
 
-Open `Podman Desktop` and follow the onboarding to set it up properly - you will most likely need `Admin Privileges`
+Open <kbd>Podman Desktop</kbd> and follow the onboarding to set it up properly - you will most likely need <kbd>Admin Privileges</kbd>
 
 ![podman-onboarding](/images/2024-04-21-podman-setup-windows/podman-desktop-onboarding.png)
 
@@ -149,18 +149,17 @@ Once finished you should see Podman is running on the App
 
 Kubernetes clusters can be setup by using either [Kind](https://kind.sigs.k8s.io/) or [minikube](https://minikube.sigs.k8s.io/docs).
 
-
 We are going to follow Kind as it is the most compatible tool and works out of the box.
 
-Go to Kubernetes on the left menu and click ond Create Kind Cluster
+Go to <kbd>Kubernetes</kbd> on the left menu and click ond <kbd>Create Kind Cluster</kbd>
 
 ![podman-kind-cluster](/images/2024-04-21-podman-setup-windows/podman-desktop-create-kind.gif)
 
-Once loaded click on `Create` so it starts creating it - it will take a while
+Once loaded click on <kbd>Create</kbd> so it starts creating it - it will take a while
 
 ![podman-kind-cluster-running](/images/2024-04-21-podman-setup-windows/podman-desktop-creating-kind.gif)
 
-Once created test kubectl can connect to it
+Once created test `kubectl` can connect to it
 
 ```bash
 kubectl get all --all-namespaces
@@ -168,7 +167,7 @@ kubectl get all --all-namespaces
 
 ## Uninstall
 
-Close Podman Dekstop and make sure to quit from Hidden Icons.
+Close <kbd>Podman Dekstop</kbd> and make sure to quit from <kbd>Hidden Icons</kbd>.
 
 Also, to ensure it has stopped, stop Podman and Podman Desktop processes
 
@@ -269,7 +268,7 @@ wsl -u root -d podman-machine-default
 podman pull {image}
 ```
 
-The alternative is to use docker-cli with the pipe docker configured, which simply works fine
+The alternative is to use <kbd>docker-cli</kbd> with the pipe docker configured, which simply works fine
 
 ### failed: exit status 0xffffffff
 
