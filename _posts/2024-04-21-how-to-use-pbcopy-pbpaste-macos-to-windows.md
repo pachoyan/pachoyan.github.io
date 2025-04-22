@@ -4,8 +4,8 @@ description: >-
   Use the popular `pbcopy` and `pbpaste` commands from MacOS on PowerShell
 author: pachoyan
 date: 2025-04-21 20:00:00 +0800
-categories: [terminal, cli]
-tags: [terminal, cli, tool]
+categories: [windows, terminal, cli]
+tags: [windows, terminal, cli, tool]
 pin: false
 ---
 
