@@ -4,8 +4,8 @@ description: >-
   Setup Rust on Windows step by step
 author: pachoyan
 date: 2025-04-21 20:00:00 +0800
-categories: [programming, rust]
-tags: [programming, cli, rust]
+categories: [rust, windows]
+tags: [windows, programming, rust]
 pin: false
 ---
 
