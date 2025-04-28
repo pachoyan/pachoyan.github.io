@@ -19,7 +19,15 @@ Data/Software Engineer
 📑 Contributing on:
 
 - [Stackoverflow](https://stackoverflow.com/users/4751165/pau)
+
+<img src="/images/about/stackoverflow.svg"></img>
+
+- [daily.dev](https://app.daily.dev/pachoyan)
+
+<a href="https://app.daily.dev/pachoyan"><img src="https://api.daily.dev/devcards/v2/1vmdZBfxdHtvhAJjBAQ3k.png?type=wide&r=opt" width="652" alt="Pachoyan's Dev Card"/></a>
+
 - [Medium](https://medium.com/@pachoyan)
+
 
 ---
 
