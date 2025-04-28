@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [terminal, oracle]
 tags: [terminal, cli, tool, oracle]
+image: /images/2025-04-21-oracle-sqlcl-tips/preview.png
 pin: false
 ---
 

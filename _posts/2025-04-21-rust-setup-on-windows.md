@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [rust, windows]
 tags: [windows, programming, rust]
+image: /images/2025-04-21-rust-setup-on-windows/preview.png
 pin: false
 ---
 

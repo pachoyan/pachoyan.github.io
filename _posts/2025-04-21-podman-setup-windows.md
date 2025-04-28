@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [containers, podman, windows]
 tags: [windows, containers, podman]
+image: /images/2025-04-21-podman-setup-windows/preview.png
 pin: true
 ---
 
