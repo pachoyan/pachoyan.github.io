@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [terminal, cli]
 tags: [terminal, cli, tool]
+image: /images/2025-04-21-freeze-generate-images-from-the-output-of-terminal/preview.png
 pin: false
 ---
 

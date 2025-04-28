@@ -132,7 +132,7 @@ kubectl cluster-info --context kind-kind-cluster
 
 Open <kbd>Podman Desktop</kbd> and follow the onboarding to set it up properly - you will most likely need <kbd>Admin Privileges</kbd>
 
-![podman-onboarding](/images/2024-04-21-podman-setup-windows/podman-desktop-onboarding.png)
+![podman-onboarding](/images/2025-04-21-podman-setup-windows/podman-desktop-onboarding.png)
 
 The onboarding will follow the next steps
 
@@ -140,11 +140,11 @@ The onboarding will follow the next steps
 2. Kubectl Setup
 3. Podman Setup - Enable Autostart Podman engine when launching Podman Desktop if you’d like.
 
-![podman-start-engine](/images/2024-04-21-podman-setup-windows/podman-dekstop-start-engine.gif)
+![podman-start-engine](/images/2025-04-21-podman-setup-windows/podman-dekstop-start-engine.gif)
 
 Once finished you should see Podman is running on the App
 
-![podman-machine-running](/images/2024-04-21-podman-setup-windows/podman-desktop-running.gif)
+![podman-machine-running](/images/2025-04-21-podman-setup-windows/podman-desktop-running.gif)
 
 #### Kubernetes
 
@@ -154,11 +154,11 @@ We are going to follow Kind as it is the most compatible tool and works out of t
 
 Go to <kbd>Kubernetes</kbd> on the left menu and click ond <kbd>Create Kind Cluster</kbd>
 
-![podman-kind-cluster](/images/2024-04-21-podman-setup-windows/podman-desktop-create-kind.gif)
+![podman-kind-cluster](/images/2025-04-21-podman-setup-windows/podman-desktop-create-kind.gif)
 
 Once loaded click on <kbd>Create</kbd> so it starts creating it - it will take a while
 
-![podman-kind-cluster-running](/images/2024-04-21-podman-setup-windows/podman-desktop-creating-kind.gif)
+![podman-kind-cluster-running](/images/2025-04-21-podman-setup-windows/podman-desktop-creating-kind.gif)
 
 Once created test `kubectl` can connect to it
 
@@ -299,7 +299,7 @@ Turn on optional features on Windows
 - Virtual Machine Platform
 - Windows Subsystem For linux
 
-![optional-features](/images/2024-04-21-podman-setup-windows/optional-features-turn-on.gif)
+![optional-features](/images/2025-04-21-podman-setup-windows/optional-features-turn-on.gif)
 
 ### WSL Podman != Windows Podman
 

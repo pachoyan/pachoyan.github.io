@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [terminal, cli]
 tags: [terminal, cli, password-manager, bitwarden]
+image: /images/2025-04-21-bitwarden-cli-quick-introduction/preview.png
 pin: false
 ---
 

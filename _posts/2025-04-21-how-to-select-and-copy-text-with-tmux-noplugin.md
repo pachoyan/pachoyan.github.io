@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [terminal, cli]
 tags: [terminal, cli, tmux]
+image: /images/2025-04-21-how-to-select-and-copy-text-with-tmux-noplugin/preview.png
 pin: false
 ---
 
