@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [windows, powershell]
 tags: [windows, powershell]
+image: /images/2025-04-21-efficient-pwsh-script-management-windows-scoop/preview.png
 pin: true
 ---
 

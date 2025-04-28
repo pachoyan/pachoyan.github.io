@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [git]
 tags: [git]
+image: /images/2025-04-21-git-commands-you-should-be-using/preview.png
 pin: false
 ---
 

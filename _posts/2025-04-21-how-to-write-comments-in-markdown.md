@@ -6,7 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [markdown]
 tags: [markdown]
-pin: false
+image: /images/2025-04-21-how-to-use-pbcopy-pbpaste-macos-to-windows/preview.png
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-04-21 20:00:00 +0800
 categories: [git, windows]
 tags: [windows, git, terminal]
+image: /images/2025-04-21-easy-and-quick-git-setup-on-windows/preview.png
 pin: true
 ---
 
