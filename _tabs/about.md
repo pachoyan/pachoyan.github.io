@@ -20,7 +20,7 @@ Data/Software Engineer
 
 - [Stackoverflow](https://stackoverflow.com/users/4751165/pau)
 
-<img src="/images/about/stackoverflow.svg"></img>
+<img src="/images/about/stackoverflow.svg" alt="Stack Overflow"></img>
 
 - [daily.dev](https://app.daily.dev/pachoyan)
 
@@ -33,4 +33,4 @@ Data/Software Engineer
 
 💻 Projects:
 
-📌 scoop-bucket scripts: Manage your scripts on windows using scoop.sh, as an example check this [repo](https://github.com/pachoyan/scoop-bucket) 
+📌 scoop-bucket scripts: Manage your scripts on windows using scoop.sh, as an example check this [repo](https://github.com/pachoyan/scoop-bucket)
