@@ -62,9 +62,9 @@ Configuring keychain on fish is not that easy, as it is not fully compatible.
 
 Luckily, we can simply add the following to `config.fish` (full path `~/.config/fish/config.fish`)
 
-```fish
+```bash
 if type -q keychain
-       SHELL=(which fish) keychain --quiet --eval id_ed25519 | source
+    SHELL=(which fish) keychain --quiet --eval id_ed25519 | source
 end
 ```
 
