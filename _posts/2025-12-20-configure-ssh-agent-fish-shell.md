@@ -1,7 +1,7 @@
 ---
-title: Configure ssh-agent on Fish Shell the right way with keychain
+title: Configure ssh-agent and keychain on Fish Shell
 description: >-
-Configuring ssh-agent to work on multiple sessions on Fish might be tricky - this explains how to do it using keychain
+Configuring ssh-agent and keychain to work on multiple sessions on Fish
 author: pachoyan
 date: 2025-12-19 21:00:00 +0800
 categories: [terminal, cli, linux, git, ssh, fish]

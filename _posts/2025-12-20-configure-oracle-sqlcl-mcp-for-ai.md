@@ -104,22 +104,22 @@ The way this works is:
   
   Save as many connections as you want, but keep in mind the connection name must be different. f.e. `local`, `qa` and `prod`.
   
-  ### Configure mcp
+### Configure mcp
   
-  For vscode you will need to create a file if it does not exist as `.vscode/mcp.json` and add the following
-  
-  ```json
-  {
-      "servers": {
-        "sqlcl": {
-            "command": "sql",
-             "args": [
-               "-mcp"
-             ]
-           }
-      }
-  }
-  ```
+For vscode you will need to create a file if it does not exist as `.vscode/mcp.json` and add the following
+
+```json
+{
+    "servers": {
+      "sqlcl": {
+          "command": "sql",
+            "args": [
+              "-mcp"
+            ]
+          }
+    }
+}
+```
   
 For GitHub Copilot CLI, add the following to `~/.copilot/mcp.json`
 
