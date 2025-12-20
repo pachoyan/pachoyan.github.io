@@ -173,3 +173,57 @@ git remote -v
 origin  git@github-personal:pachoyan/pachoyan.github.io.git (fetch)
 origin  git@github-personal:pachoyan/pachoyan.github.io.git (push)
 ```
+
+## GitHub CLI
+
+If you are a GitHub CLI user you might want to configure it to work with multiple accounts too.
+
+Check you do not have set `GITHUB_TOKEN` variable on your shell first
+
+```bash
+echo $GITHUB_TOKEN
+# must be empty
+```
+
+First, configure your main account by selecting `GitHub.com` and the main ssh-key
+
+```bash
+gh auth login
+
+# Where do you use GitHub?
+# > GitHub.com
+# SSH
+# Select ~/.ssh/id_ed25519.pub
+# Title: GitHub CLI
+```
+
+Then, configure your main secondary by selecting `GitHub.com` again and the personal ssh-key
+
+```bash
+gh auth login
+
+# Where do you use GitHub?
+# > GitHub.com
+# SSH
+# Select ~/.ssh/id_ed25519_personal.pub
+# Title: GitHub CLI
+```
+
+Finally check, both have been configured
+
+```bash
+gh auth status
+
+# github.com
+#   ✓ Logged in to github.com account pachoyan (/home/pchorro/.config/gh/hosts.yml)
+#   - Active account: true
+#   - Git operations protocol: ssh
+#   - Token: gho_************************************
+#   - Token scopes: 'admin:public_key', 'gist', 'read:org', 'repo'
+
+#   ✓ Logged in to github.com account work (/home/pchorro/.config/gh/hosts.yml)
+#   - Active account: false
+#   - Git operations protocol: ssh
+#   - Token: gho_************************************
+#   - Token scopes: 'admin:public_key', 'delete_repo', 'gist', 'read:org', 'repo'
+```
