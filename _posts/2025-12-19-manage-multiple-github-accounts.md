@@ -125,7 +125,7 @@ ssh -T git@github-personal
 
 ## Manage GitHub Repositories
 
-From now on, for the defaul account we can proceed as usual. Cloning and other git ops on repositories can be used normally
+From now on, for the default account we can proceed as usual. Cloning and other git ops on repositories can be used normally
 
 ```bash
 git clone git@github.com:cli/cli.git
@@ -147,8 +147,8 @@ If you check the remote, the host name `git@github.com` should be replaced with 
 
 ```bash
 git remote -v
-origin  git@github-personal:pachoyan/pachoyan.github.io.git (fetch)
-origin  git@github-personal:pachoyan/pachoyan.github.io.git (push)
+# origin  git@github-personal:pachoyan/pachoyan.github.io.git (fetch)
+# origin  git@github-personal:pachoyan/pachoyan.github.io.git (push)
 ```
 
 ### Fix existing repositories
@@ -157,8 +157,8 @@ If you already had one cloned with the wrong remote for your personal account. F
 
 ```bash
 git remote -v
-origin  git@github.com:pachoyan/pachoyan.github.io.git (fetch)
-origin  git@github.com:pachoyan/pachoyan.github.io.git (push
+# origin  git@github.com:pachoyan/pachoyan.github.io.git (fetch)
+# origin  git@github.com:pachoyan/pachoyan.github.io.git (push
 ```
 
 You can easily replace it by running
@@ -171,8 +171,8 @@ Then verify, it's now pointing to the right HostName
 
 ```bash
 git remote -v
-origin  git@github-personal:pachoyan/pachoyan.github.io.git (fetch)
-origin  git@github-personal:pachoyan/pachoyan.github.io.git (push)
+# origin  git@github-personal:pachoyan/pachoyan.github.io.git (fetch)
+# origin  git@github-personal:pachoyan/pachoyan.github.io.git (push)
 ```
 
 ## GitHub CLI

@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-12-19 21:00:00 +0800
 categories: [terminal, cli, linux, git, ssh, fish]
 tags: [terminal, linux, fish, ssh, git]
+image: /images/2025-12-20-configure-ssh-agent-fish-shell/preview.png
 pin: false
 ---
 
