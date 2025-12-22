@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-12-19 21:00:00 +0800
 categories: [terminal, cli, git]
 tags: [terminal, cli, git, github]
+image: /images/2025-12-19-manage-multiple-github-accounts/preview.png
 pin: false
 ---
 
