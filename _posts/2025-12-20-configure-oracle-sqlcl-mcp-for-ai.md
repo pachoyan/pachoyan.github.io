@@ -6,6 +6,7 @@ author: pachoyan
 date: 2025-12-19 21:00:00 +0800
 categories: [terminal, cli, oracle, ai, mcp, ai-agent, sql]
 tags: [terminal, cli, oracle, ai, mcp]
+image: /images/2025-12-20-configure-oracle-sqlcl-mcp-for-ai/preview.png
 pin: false
 ---
 
