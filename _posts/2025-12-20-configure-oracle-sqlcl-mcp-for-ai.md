@@ -39,7 +39,7 @@ For Linux users:
 
 Download sqlcl from [Oracle Website](https://www.oracle.com/database/sqldeveloper/technologies/sqlcl/download/)
 
-Then extract it somewhere like `~/.local/share/sqlcl` and create a link at ~/.local/bin/sql`.
+Then extract it somewhere like `~/.local/share/sqlcl` and create a link at `~/.local/bin/sql`.
 
 For Windows:
 
