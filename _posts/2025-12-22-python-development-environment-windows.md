@@ -80,8 +80,8 @@ Then you can install with pipx applications that are written in python. For exam
 pipx insall pre-commit
 ```
 
-> [!WARNING]
-> 
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
 > Combining `pipx` with `scoop` is fine, but you might end up having issues with pipx underlying python version when updating it via scoop. 
 > 
 > It is recommended to hold `pipx` and upgrade only when necessary:
@@ -89,6 +89,8 @@ pipx insall pre-commit
 > ```bash
 > scoop hold pipx
 > ```
+{: .prompt-tip }
+<!-- markdownlint-restore -->
 
 ### Poetry
 
