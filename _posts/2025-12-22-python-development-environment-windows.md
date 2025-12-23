@@ -89,7 +89,7 @@ pipx insall pre-commit
 > ```bash
 > scoop hold pipx
 > ```
-{: .prompt-tip }
+{: .prompt-warning }
 <!-- markdownlint-restore -->
 
 ### Poetry
@@ -123,9 +123,11 @@ ruff format  # Format all files in the current directory.
 
 ### uv and uvx
 
-> [!TIP]
->
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
 > Prefer `uvx` (uv tool) over `pipx`
+{: .prompt-tip }
+<!-- markdownlint-restore -->
 
 uv is an extremely fast Python package and project manager, written in Rust.
 
