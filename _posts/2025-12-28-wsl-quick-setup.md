@@ -4,8 +4,8 @@ description: >-
   Quick WSL Setup
 author: pachoyan
 date: 2025-12-28 20:00:00 +0800
-categories: [windows, wsl]
-tags: [windows, wsl]
+categories: [windows, wsl, linux, ubuntu]
+tags: [windows, wsl, linux, ubuntu]
 image: /images/2025-12-28-wsl-quick-setup/preview.png
 pin: false
 ---
@@ -35,7 +35,6 @@ networkingMode=mirrored
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 > To learn more about .wslconfig go to [official docs](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig)
-> ```
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
