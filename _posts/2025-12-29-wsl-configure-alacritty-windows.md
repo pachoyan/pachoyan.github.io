@@ -3,10 +3,10 @@ title: WSL Configure Alacritty on Windows for WSL
 description: >-
   Setup Alacritty to Work with WSL Default on Windows
 author: pachoyan
-date: 2025-12-30 20:00:00 +0800
+date: 2025-12-29 12:00:00 +0800
 categories: [windows, wsl, linux, ubuntu, nix, terminal, alacritty]
 tags: [windows, wsl, linux, ubuntu, wsl-series]
-image: /images/2025-12-30-wsl-configure-alacritty-windows/preview.png
+image: /images/2025-12-29-wsl-configure-alacritty-windows/preview.png
 pin: false
 ---
 
