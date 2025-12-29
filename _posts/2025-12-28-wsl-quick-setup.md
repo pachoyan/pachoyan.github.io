@@ -5,7 +5,7 @@ description: >-
 author: pachoyan
 date: 2025-12-28 20:00:00 +0800
 categories: [windows, wsl, linux, ubuntu]
-tags: [windows, wsl, linux, ubuntu]
+tags: [windows, wsl, linux, ubuntu, wsl-series]
 image: /images/2025-12-28-wsl-quick-setup/preview.png
 pin: false
 ---
