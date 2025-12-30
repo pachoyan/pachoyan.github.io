@@ -14,8 +14,8 @@ pin: false
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> Make sure you have followed WSL Quick Setup Post first.
-{: .prompt-tip }
+> Make sure you have followed [WSL Quick Setup]({{ '/posts/wsl-quick-setup' | relative_url }}) Post first.
+{: .prompt-warning }
 <!-- markdownlint-restore -->
 
 Nix and Nix flakes makes easier to install tools on Ubuntu. Although, not all of them work perfectly fine (I prefer to keep podman f.e. installed from `apt`) it makes easier to maintain the environment clean and reproducible.

@@ -24,37 +24,38 @@ This structured learning path will take you through everything you need to know 
   <h4 style="margin-bottom: 0.5rem;">
     <a href="{{ '/posts/wsl-quick-setup' | relative_url }}">1. WSL Quick Setup</a>
   </h4>
-  <p style="color: gray; font-size: 0.9em; margin-bottom: 0.5rem;">December 28, 2025</p>
-  <p style="margin-bottom: 0;">Quick WSL Setup</p>
 </div>
 
 <div style="margin-bottom: 2rem;">
   <h4 style="margin-bottom: 0.5rem;">
     <a href="{{ '/posts/wsl-find-manage-distros' | relative_url }}">2. WSL Find and Install different Distributions</a>
   </h4>
-  <p style="color: gray; font-size: 0.9em; margin-bottom: 0.5rem;">December 29, 2025</p>
-  <p style="margin-bottom: 0;">Discovery Different Available Distros for WSL on Windows</p>
 </div>
 
 <div style="margin-bottom: 2rem;">
   <h4 style="margin-bottom: 0.5rem;">
-    <a href="{{ '/posts/wsl-ubuntu-nix-setup' | relative_url }}">3. WSL Ubuntu Nix Setup</a>
-  </h4>
-  <p style="color: gray; font-size: 0.9em; margin-bottom: 0.5rem;">December 29, 2025</p>
-  <p style="margin-bottom: 0;">Setup Nix and Nix Flakes on Ubuntu WSL</p>
-</div>
-
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">4. List of Terminals for Windows Subsystem Linux</a>
+    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">3. List of Terminals for Windows Subsystem Linux</a>
   </h4>
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">4.1. WSL Configure Alacritty on Windows for WSL</a>
+      <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">3.1. WSL Configure Alacritty on Windows for WSL</a>
     </h5>
-    <p style="color: gray; font-size: 0.9em; margin-bottom: 0.5rem;">December 29, 2025</p>
-    <p style="margin-bottom: 0;">Setup Alacritty to Work with WSL Default on Windows</p>
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <h4 style="margin-bottom: 0.5rem;">
+    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">4. Nix and Nix Flakes on Ubuntu WSL</a>
+  </h4>
+  
+  <div style="margin-left: 1.5rem; margin-top: 1rem;">
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-ubuntu-nix-setup' | relative_url }}">4.1. WSL Ubuntu Nix Setup</a>
+    </h5>
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-ubuntu-nix-flakes-reproducible' | relative_url }}">4.2. WSL Ubuntu Reproducible Environments with Nix Flakes</a>
+    </h5>
   </div>
 </div>
 
