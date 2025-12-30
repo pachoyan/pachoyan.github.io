@@ -1,5 +1,5 @@
 ---
-title: WSL Configure Wezterm on Windows for WSL
+title: Configure Wezterm on Windows for WSL
 description: >-
   Setup Wezterm to Work with WSL Default on Windows
 author: pachoyan

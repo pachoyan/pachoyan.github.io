@@ -39,10 +39,13 @@ This structured learning path will take you through everything you need to know 
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">3.1. WSL Configure Alacritty on Windows for WSL</a>
+      <a href="{{ '/posts/wsl-configure-windows-terminal' | relative_url }}">3.1. Configure Windows Terminal for WSL</a>
     </h5>
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-wezterm-windows' | relative_url }}">3.2. WSL Configure Wezterm on Windows for WSL</a>
+      <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">3.2. Configure Alacritty on Windows for WSL</a>
+    </h5>
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-configure-wezterm-windows' | relative_url }}">3.3. Configure Wezterm on Windows for WSL</a>
     </h5>
   </div>
 </div>
