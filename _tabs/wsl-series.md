@@ -46,7 +46,7 @@ This structured learning path will take you through everything you need to know 
 
 <div style="margin-bottom: 2rem;">
   <h4 style="margin-bottom: 0.5rem;">
-    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">4. Nix and Nix Flakes on Ubuntu WSL</a>
+    <p>4. Nix and Nix Flakes on Ubuntu WSL</p>
   </h4>
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
