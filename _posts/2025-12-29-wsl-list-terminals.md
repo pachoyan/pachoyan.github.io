@@ -1,7 +1,7 @@
 ---
-title: WSL List Terminals
+title: Choosing a Terminal for WSL on Windows
 description: >-
-  List of Best terminals to work with Windows Subsystem Linux
+  Choosing a Terminal for WSL on Windows - different options
 author: pachoyan
 date: 2025-12-29 22:00:00 +0800
 categories: [windows, wsl, linux, terminal]
