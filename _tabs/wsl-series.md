@@ -45,7 +45,9 @@ This structured learning path will take you through everything you need to know 
 </div>
 
 <div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">4. WSL Configure terminals to work with Windows Subsystem Linux</h4>
+  <h4 style="margin-bottom: 0.5rem;">
+    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">4. List of Terminals for Windows Subsystem Linux</a>
+  </h4>
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">

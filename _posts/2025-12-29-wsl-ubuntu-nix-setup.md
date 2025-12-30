@@ -62,5 +62,6 @@ Check nix flakes works
 nix flake --help
 
 nix run nixpkgs#hello
+
 # Hello, World!
 ```
