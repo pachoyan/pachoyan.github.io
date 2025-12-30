@@ -41,6 +41,9 @@ This structured learning path will take you through everything you need to know 
     <h5 style="margin-bottom: 0.5rem;">
       <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">3.1. WSL Configure Alacritty on Windows for WSL</a>
     </h5>
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-configure-wezterm-windows' | relative_url }}">3.2. WSL Configure Wezterm on Windows for WSL</a>
+    </h5>
   </div>
 </div>
 
