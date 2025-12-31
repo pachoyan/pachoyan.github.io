@@ -20,7 +20,6 @@ Also, and surprisingly it is open source and you can find the code on GitHub [he
 
 **Pros:**
 
-- Open Source
 - Modern terminal.
 - Advanced built-in features.
 - Configuration stored on a JSON File.
@@ -31,6 +30,8 @@ Also, and surprisingly it is open source and you can find the code on GitHub [he
 
 - Can feel more slower than other terminals.
 - Does not support Graphics Protocol or SIXEL.
+
+<a href="{{ '/posts/wsl-configure-windows-terminal' | relative_url }}">Configure Windows Terminal for WSL</a>
 
 ### Alacritty
 
@@ -53,13 +54,15 @@ Moder terminal cross-platform terminal, blazing fast written in Rust.
 - Customize configuration might be intimidating at the beginning.
 - Does not support Graphics Protocol or SIXEL.
 
+<a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">Configure Alacritty on Windows for WSL</a>
+
 ### Wezterm
 
 Another modern terminal written in rust. It comes with many built-in features.
 
 Wezterm author is very keen adding features proposed by the community.
 
-Check it out [here](https://wezterm.org/index.html)
+Check it out [here](https://wezterm.org)
 
 **Pros:**
 
@@ -72,6 +75,8 @@ Check it out [here](https://wezterm.org/index.html)
 
 - Slower than other simple terminals like Alacritty.
 - Lua configuration might have a steep learning curve at the beginning.
+
+<a href="{{ '/posts/wsl-configure-wezterm-windows' | relative_url }}">Configure Wezterm on Windows for WSL</a>
 
 ### Others
 
