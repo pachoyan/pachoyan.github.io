@@ -18,7 +18,7 @@ It is the official Microsoft Windows Terminal. It can be configured via a json f
 
 Also, and surprisingly it is open source and you can find the code on GitHub [here](https://github.com/microsoft/terminal)
 
-Pros:
+**Pros:**
 
 - Open Source
 - Modern terminal.
@@ -27,7 +27,7 @@ Pros:
 - Fully compatibility with Windows and WSL.
 - True color, Emoji's and Hyperlinks.
 
-Cons:
+**Cons:**
 
 - Can feel more slower than other terminals.
 - Does not support Graphics Protocol or SIXEL.
@@ -38,7 +38,7 @@ Moder terminal cross-platform terminal, blazing fast written in Rust.
 
 [Alacritty](https://alacritty.org/) is a terminal loved by the community, although it has not so many built in features other have, if you are an advanced terminal user you will love it.
 
-Pros:
+**Pros:**
 
 - Open Source
 - Fastest terminal
@@ -46,11 +46,12 @@ Pros:
 - True color, Emoji's and Hyperlinks.
 - Good configuration defaults and infinite options to customize it.
 
-Cons:
+**Cons:**
 
 - Can feel old.
 - Does not have simple built-in features like tabs.
 - Customize configuration might be intimidating at the beginning.
+- Does not support Graphics Protocol or SIXEL.
 
 ### Wezterm
 
@@ -60,14 +61,14 @@ Wezterm author is very keen adding features proposed by the community.
 
 Check it out [here](https://wezterm.org/index.html)
 
-Pros:
+**Pros:**
 
 - Open Source
 - Modern terminal.
 - Advanced built-in features.
 - True color, Emoji's and Hyperlinks and Graphics.
 
-Cons:
+**Cons:**
 
 - Slower than other simple terminals like Alacritty.
 - Lua configuration might have a steep learning curve at the beginning.
@@ -85,12 +86,25 @@ Although I have not used them very much to have a strong opinion, they are worth
 
 ## Which one to choose?
 
-So which one yo should choose?
+**Windows users / non-advanced users**
 
-- `Windows Terminal`: it can be sluggish, but it comes with pretty much any built-in feature you need to work. If you are a regular user that is not looking to use any terminal multiplexer (like Zellij or tmux) and do not care about rendering speed, honestly the Windows Terminal is the best choice.
+- Windows Terminal
 
-- `Alacritty`: the fastest terminal to work with WSL. Besides that, only consider using it if you are going to use a terminal multiplexer as no tabs or pretty much any modern feature is included on Alacritty. Also, if you are going to use an image render (f.e. for Yazi), Alacritty won't work so it simply can't be your choice. I personally use Alacritty, I now the limitations but I am happy with priortizing smoothness and speed over built-in features.
+Windows Terminal can feel a bit sluggish, but it comes with almost everything you need out of the box. If you are a regular user, do not plan to use a terminal multiplexer (such as Zellij or tmux), and do not care much about rendering speed, Windows Terminal is a solid default choice.
 
-- `Wezterm`: i guess it has the best of both worlds. I find it a bit complext to configure, but once done and learnt I guess should be all good. It is not as fast as Alacritty, but feels better than Windows Terminal. It can render images and has a built-in multiplexer also.
+**Advanced users focused on speed**
 
-- Others: if you are already familiar or prefer to try one of the existing modern terminals listed previosuly, go for it.
+- Alacritty
+
+Alacritty is the fastest option, especially when used with WSL. It is best suited if you rely on a terminal multiplexer, as it does not provide tabs or most modern terminal features on its own. Image rendering is also not supported (for example, Yazi previews will not work), which can be a deal-breaker for some workflows.
+I personally use Alacritty and accept its limitations, as I prefer smoothness and speed over built-in features.
+
+**Medium to advanced users looking for speed and features**
+
+- WezTerm
+
+WezTerm offers a good balance between performance and functionality. Configuration can feel a bit complex at first, but once set up, it is quite capable. It is not as fast as Alacritty, but it performs better than Windows Terminal. It also supports image rendering and includes a built-in multiplexer, which reduces the need for external tools.
+
+**Other options**
+
+If you already use or want to try another modern terminal mentioned earlier, that is perfectly fine. Personal preference and workflow matter more than picking a “best” terminal.

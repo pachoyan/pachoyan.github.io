@@ -38,7 +38,7 @@ The easiest way is to install it using scoop:
 scoop install nerd-fonts/JetBrainsMono-NF
 ```
 
-## Configure Wezterm
+## Configure Windows Terminal
 
 Drop the following config into `C:\Users\<user>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`:
 
