@@ -84,32 +84,12 @@ This structured learning path will take you through everything you need to know 
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-vscode-editor' | relative_url }}">6.1. Install and Use VS Code Editor on Windows WSL</a>
+      <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">6.1. Install and Use Zed Editor on Windows WSL</a>
     </h5>
   </div>
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">6.2. Install and Use Zed Editor on Windows WSL</a>
-    </h5>
-  </div>
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-lapce-editor' | relative_url }}">6.3. Install and Use Lapce Editor on Windows WSL </a>
-    </h5>
-  </div>
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-intellij-ide' | relative_url }}">6.4. Install and Use IntelliJ IDEA on Windows WSL </a>
-    </h5>
-  </div>
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-eclipse-ide' | relative_url }}">6.5. Install and Use Eclipse IDE on Windows WSL </a>
-    </h5>
-  </div>
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-tui-editors' | relative_url }}">6.6. Install and Use TUI Editors on Windows WSL (Vim, Neovim and Helix) </a>
+      <a href="{{ '/posts/wsl-lapce-editor' | relative_url }}">6.2. Install and Use Lapce Editor on Windows WSL </a>
     </h5>
   </div>
 </div>
