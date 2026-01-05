@@ -6,7 +6,7 @@ author: pachoyan
 date: 2025-12-29 22:00:00 +0800
 categories: [windows, wsl, linux, terminal]
 tags: [windows, wsl, linux, terminal, wsl-series]
-image: /images/2026-01-05-wsl-search-files-from-windows/preview.png
+image: /images/2026-01-05-wsl-search-files-windows/preview.png
 pin: false
 ---
 

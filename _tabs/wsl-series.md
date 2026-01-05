@@ -39,7 +39,7 @@ This structured learning path will take you through everything you need to know 
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/2026-01-05-wsl-search-files-from-windows' | relative_url }}">3.1. Find and Manipulate WSL Linux Files and Directories from Windows</a>
+      <a href="{{ '/posts/wsl-search-files-windows' | relative_url }}">3.1. Find and Manipulate WSL Linux Files and Directories from Windows</a>
     </h5>
   </div>
 </div>
