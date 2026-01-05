@@ -39,7 +39,7 @@ scoop install extras/zed
 
 - Executable: download it directly from [zed.dev](https://zed.dev/).
 
-## Open Projects
+## Open WSL Remote Projects
 
 1. Open Zed Editor from Windows.
 2. Click on the top menu `File > Open Remote...` or`Ctrl+Alt+Shift+O`
@@ -47,27 +47,31 @@ scoop install extras/zed
 
 This will open the folder and a terminal inside WSL which let you work from Windows using remote SSH in WSL Linux.
 
+For a more detailed documentation visit the official docs [here](https://zed.dev/docs/remote-development).
+
 ## Extensions
 
 Press `Ctrl+Shift+P` and search for extensions. You will se a huge collection of useful extensions to install.
 
 Some of the recommended ones I use is:
 
-- HTML: html support
-- Catpuccin: catpuccin theme for zed
-- Catpuccin Icons: icons for zed
-- Dockerfile: docker syntax support
+- [HTML](https://github.com/zed-industries/zed/tree/main/extensions/html): html support
+- [Catpuccin Theme](https://github.com/catppuccin/zed): catpuccin theme for zed
+- [Catpuccin Icons](https://github.com/catppuccin/zed-icons): icons for zed
+- [Dockerfile](https://github.com/zed-extensions/dockerfile): docker syntax support
 - Make: makefile syntax highlighting
-- TOML: toml syntax support
-- SQL: SQL Language support
-- golangci-lint: golang lint support
-- Color higlight: higlight colors based on color-lsp.
+- [TOML](https://github.com/zed-extensions/toml): toml syntax support
+- [SQL](https://github.com/zed-extensions/sql): SQL Language support
+- [golangci-lint](https://github.com/zed-extensions/golangci-lint): golang lint support
+- [Color higlight](https://github.com/huacnlee/color-lsp/tree/main/zed-color-highlight): higlight colors based on color-lsp.
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 > Rust support is built-in to Zed.
 {: .prompt-tip }
 <!-- markdownlint-restore -->
+
+For a more detailed documentation visit the official docs [here](https://zed.dev/docs/extensions).
 
 ## Terminal
 
@@ -89,3 +93,5 @@ Use:
 - To open it manually search the bottom bar on the right.
 
 Configure LLM Providers and MCP in the settings tab itself.
+
+For a more detailed documentation visit the official docs [here](https://zed.dev/docs/ai/overview).
