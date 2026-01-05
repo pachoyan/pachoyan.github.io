@@ -34,70 +34,82 @@ This structured learning path will take you through everything you need to know 
 
 <div style="margin-bottom: 2rem;">
   <h4 style="margin-bottom: 0.5rem;">
-    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">3. List of Terminals for Windows Subsystem Linux</a>
+    <p>3. Windows WSL Interoperability</p>
   </h4>
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-windows-terminal' | relative_url }}">3.1. Configure Windows Terminal for WSL</a>
-    </h5>
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">3.2. Configure Alacritty on Windows for WSL</a>
-    </h5>
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-wezterm-windows' | relative_url }}">3.3. Configure Wezterm on Windows for WSL</a>
+      <a href="{{ '/posts/2026-01-05-wsl-search-files-from-windows' | relative_url }}">3.1. Find and Manipulate WSL Linux Files and Directories from Windows</a>
     </h5>
   </div>
 </div>
 
 <div style="margin-bottom: 2rem;">
   <h4 style="margin-bottom: 0.5rem;">
-    <p>4. Nix and Nix Flakes on Ubuntu WSL</p>
+    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">4. List of Terminals for Windows Subsystem Linux</a>
   </h4>
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-ubuntu-nix-setup' | relative_url }}">4.1. WSL Ubuntu Nix Setup</a>
+      <a href="{{ '/posts/wsl-configure-windows-terminal' | relative_url }}">4.1. Configure Windows Terminal for WSL</a>
     </h5>
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-ubuntu-nix-flakes-reproducible' | relative_url }}">4.2. WSL Ubuntu Reproducible Environments with Nix Flakes</a>
+      <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">4.2. Configure Alacritty on Windows for WSL</a>
+    </h5>
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-configure-wezterm-windows' | relative_url }}">4.3. Configure Wezterm on Windows for WSL</a>
     </h5>
   </div>
 </div>
 
 <div style="margin-bottom: 2rem;">
   <h4 style="margin-bottom: 0.5rem;">
-    <p>5. Configure and Use of IDE(s) and Editors to work with WSL</p>
+    <p>5. Nix and Nix Flakes on Ubuntu WSL</p>
   </h4>
   
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-vscode-editor' | relative_url }}">5.1. Install and Use VS Code Editor on Windows WSL</a>
+      <a href="{{ '/posts/wsl-ubuntu-nix-setup' | relative_url }}">5.1. WSL Ubuntu Nix Setup</a>
+    </h5>
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-ubuntu-nix-flakes-reproducible' | relative_url }}">5.2. WSL Ubuntu Reproducible Environments with Nix Flakes</a>
+    </h5>
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <h4 style="margin-bottom: 0.5rem;">
+    <p>6. Configure and Use of IDE(s) and Editors to work with WSL</p>
+  </h4>
+  
+  <div style="margin-left: 1.5rem; margin-top: 1rem;">
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-vscode-editor' | relative_url }}">6.1. Install and Use VS Code Editor on Windows WSL</a>
     </h5>
   </div>
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">5.2. Install and Use Zed Editor on Windows WSL</a>
+      <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">6.2. Install and Use Zed Editor on Windows WSL</a>
     </h5>
   </div>
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-lapce-editor' | relative_url }}">5.3. Install and Use Lapce Editor on Windows WSL </a>
+      <a href="{{ '/posts/wsl-lapce-editor' | relative_url }}">6.3. Install and Use Lapce Editor on Windows WSL </a>
     </h5>
   </div>
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-intellij-ide' | relative_url }}">5.4. Install and Use IntelliJ IDEA on Windows WSL </a>
+      <a href="{{ '/posts/wsl-intellij-ide' | relative_url }}">6.4. Install and Use IntelliJ IDEA on Windows WSL </a>
     </h5>
   </div>
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-eclipse-ide' | relative_url }}">5.5. Install and Use Eclipse IDE on Windows WSL </a>
+      <a href="{{ '/posts/wsl-eclipse-ide' | relative_url }}">6.5. Install and Use Eclipse IDE on Windows WSL </a>
     </h5>
   </div>
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-tui-editors' | relative_url }}">5.6. Install and Use TUI Editors on Windows WSL (Vim, Neovim and Helix) </a>
+      <a href="{{ '/posts/wsl-tui-editors' | relative_url }}">6.6. Install and Use TUI Editors on Windows WSL (Vim, Neovim and Helix) </a>
     </h5>
   </div>
 </div>
