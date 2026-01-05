@@ -87,11 +87,6 @@ This structured learning path will take you through everything you need to know 
       <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">6.1. Install and Use Zed Editor on Windows WSL</a>
     </h5>
   </div>
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-lapce-editor' | relative_url }}">6.2. Install and Use Lapce Editor on Windows WSL </a>
-    </h5>
-  </div>
 </div>
 
 ---
