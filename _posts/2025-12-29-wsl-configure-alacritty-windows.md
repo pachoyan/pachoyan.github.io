@@ -21,6 +21,7 @@ Install Alacritty using winget, scoop or downloading the installer from the [web
 Scoop:
 
 ```bash
+scoop bucket add extras
 scoop install extras/alacritty
 ```
 
@@ -37,6 +38,7 @@ Install Nerd Fonts for maximum compatibility with Alacritty configuration:
 The easiest way is to install it using scoop:
 
 ```bash
+scoop bucket add nerd-fonts
 scoop install nerd-fonts/JetBrainsMono-NF
 ```
 

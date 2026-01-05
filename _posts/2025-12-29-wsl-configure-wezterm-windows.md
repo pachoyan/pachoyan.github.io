@@ -31,6 +31,7 @@ Install Nerd Fonts for maximum compatibility with Wezterm configuration:
 The easiest way is to install it using scoop:
 
 ```bash
+scoop bucket add nerd-fonts
 scoop install nerd-fonts/JetBrainsMono-NF
 ```
 
