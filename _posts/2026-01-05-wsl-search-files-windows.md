@@ -79,6 +79,8 @@ sudo apt install zsh -y
 sudo apt install fd-find
 ```
 
+Finally, on Flow Launcher:
+
 - Install [WSL File Search Plugin](https://www.flowlauncher.com/plugins/wsl-file-search-e4d1c3a7-b8f3-45d2-b5fa-5a3c8c0a1f41/).
 
 Then when opening Flow Launcher (Alt+Space) type `wslf` with space followed by the folder (f.e. `project-go`).

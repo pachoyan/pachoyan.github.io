@@ -42,6 +42,11 @@ This structured learning path will take you through everything you need to know 
       <a href="{{ '/posts/wsl-search-files-windows' | relative_url }}">3.1. Find and Manipulate WSL Linux Files and Directories from Windows</a>
     </h5>
   </div>
+  <div style="margin-left: 1.5rem; margin-top: 1rem;">
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-search-files-windows' | relative_url }}">3.2. WSL Windows Interoperability</a>
+    </h5>
+  </div>
 </div>
 
 <div style="margin-bottom: 2rem;">
@@ -85,6 +90,18 @@ This structured learning path will take you through everything you need to know 
   <div style="margin-left: 1.5rem; margin-top: 1rem;">
     <h5 style="margin-bottom: 0.5rem;">
       <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">6.1. Install and Use Zed Editor on Windows WSL</a>
+    </h5>
+  </div>
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <h4 style="margin-bottom: 0.5rem;">
+    <p>7. Containers on WSL</p>
+  </h4>
+  
+  <div style="margin-left: 1.5rem; margin-top: 1rem;">
+    <h5 style="margin-bottom: 0.5rem;">
+      <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">7.1. Install Podman on WSL Ubuntu</a>
     </h5>
   </div>
 </div>
