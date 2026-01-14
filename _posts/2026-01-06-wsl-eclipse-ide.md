@@ -20,7 +20,7 @@ Although nowadays feels a bit out of date, still is a good IDE for Java develope
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> If you intend to install eclipse using nix, note that an error occurs when launching the project ecp which remains unresolved. Only proceed if you’d like to fix this.
+> If you intend to install eclipse using nix, note that an error occurs when launching a project which remains unresolved. Only proceed if you’d like to fix this.
 {: .prompt-warning }
 <!-- markdownlint-restore -->
 
@@ -34,6 +34,10 @@ sudo apt install default-jdk
 ```
 
 Download eclipse
+
+Go to Index of /eclipse/technology/epp/downloads/release/ and find the eclipse distribution you'd like to download.
+
+For example, for eclipse-rcp 2025–09:
 
 ```bash
 wget https://mirror.umd.edu/eclipse/technology/epp/downloads/release/2025-09/R/eclipse-rcp-2025-09-R-linux-gtk-x86_64.tar.gz --output-document eclipse-rcp-2025-09-R-linux-gtk-x86_64.tar.gz
