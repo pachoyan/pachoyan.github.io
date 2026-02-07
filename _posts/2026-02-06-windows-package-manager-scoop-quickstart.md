@@ -6,7 +6,7 @@ author: pachoyan
 date: 2026-02-06 20:00:00 +0800
 categories: [terminal, cli]
 tags: [terminal, cli, password-manager, bitwarden]
-image: /images/2026-02-06-windows-package-manager-scoop-quickstart.md/preview.png
+image: /images/2026-02-06-windows-package-manager-scoop-quickstart/preview.png
 pin: false
 ---
 
