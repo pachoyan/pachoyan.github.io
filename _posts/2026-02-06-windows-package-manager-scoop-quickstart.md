@@ -5,14 +5,14 @@ description: >-
 author: pachoyan
 date: 2026-02-06 20:00:00 +0800
 categories: [terminal, cli]
-tags: [terminal, cli, password-manager, bitwarden]
+tags: [terminal, cli, package-manager, scoop]
 image: /images/2026-02-06-windows-package-manager-scoop-quickstart/preview.png
 pin: false
 ---
 
 ## Introduction
 
-[scoop](scoop.sh) is a popular package manager for Windows. It is a powerful package-manager with linux like feelings.
+[scoop](https://scoop.sh/) is a popular package manager for Windows. It is a powerful package-manager with linux like feelings.
 
 - Keeps your PATH clean
 - Avoids windows permission-popup by installing portable binaries.
