@@ -1,5 +1,5 @@
 ---
-title: "WIN: Efficient Powershell Script Management on Windows - Using Scoop and Github"
+title: "WINDOWS: Efficient Powershell Script Management on Windows - Using Scoop and Github"
 slug: efficient-pwsh-script-management-windows-scoop
 description: >-
   Automate PowerShell script Management using scoop on Windows.

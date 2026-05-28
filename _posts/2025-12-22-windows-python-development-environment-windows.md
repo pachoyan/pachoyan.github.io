@@ -1,5 +1,5 @@
 ---
-title: "WIN: Python Setup on Windows (using scoop)"
+title: "WINDOWS: Python Setup on Windows (using scoop)"
 slug: python-development-environment-windows
 description: >-
   Complete Python Setup on Windows using scoop.

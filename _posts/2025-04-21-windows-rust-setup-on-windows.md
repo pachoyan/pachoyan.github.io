@@ -1,5 +1,5 @@
 ---
-title: "WIN: Rust setup on Windows - Using rustup"
+title: "WINDOWS: Rust setup on Windows - Using rustup"
 slug: rust-setup-on-windows
 description: >-
   Setup Rust on Windows step by step
