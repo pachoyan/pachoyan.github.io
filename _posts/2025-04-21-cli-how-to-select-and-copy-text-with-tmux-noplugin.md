@@ -1,5 +1,6 @@
 ---
-title: How to quickly select and copy any text with TMUX — no plugin required
+title: "CLI: How to quickly select and copy any text with TMUX — no plugin required"
+slug: how-to-select-and-copy-text-with-tmux-noplugin
 description: >-
   Select and copy faster than ever using TMUX without plugins
 author: pachoyan

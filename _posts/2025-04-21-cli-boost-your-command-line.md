@@ -1,5 +1,6 @@
 ---
-title: Boost Your Command line - Must-Have Modern terminal Tools
+title: "CLI: Boost Your Command line - Must-Have Modern terminal Tools"
+slug: boost-your-command-line
 description: >-
   List of modern cli tools that increase your productivity on the terminal.
 author: pachoyan

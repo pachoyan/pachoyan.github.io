@@ -1,5 +1,6 @@
 ---
-title: Install and Use Eclipse IDE on Windows WSL
+title: "WSL: Install and Use Eclipse IDE on Windows WSL"
+slug: wsl-eclipse-ide
 description: >-
   Use Eclipse IDE for Windows WSL Development Guide
 author: pachoyan

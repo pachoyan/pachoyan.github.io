@@ -1,5 +1,6 @@
 ---
-title: WSL Find and Install different Distributions
+title: "WSL: Find and Install different Distributions"
+slug: wsl-find-manage-distros
 description: >-
   Discovery Different Available Distros for WSL on Windows
 author: pachoyan

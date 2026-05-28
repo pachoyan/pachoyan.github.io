@@ -1,5 +1,6 @@
 ---
-title: WSL Quick Setup
+title: "WSL: Quick Setup"
+slug: wsl-quick-setup
 description: >-
   Quick WSL Setup
 author: pachoyan

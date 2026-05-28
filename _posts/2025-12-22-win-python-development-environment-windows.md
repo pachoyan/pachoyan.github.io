@@ -1,5 +1,6 @@
 ---
-title: Python Setup on Windows (using scoop)
+title: "WIN: Python Setup on Windows (using scoop)"
+slug: python-development-environment-windows
 description: >-
   Complete Python Setup on Windows using scoop.
 author: pachoyan

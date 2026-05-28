@@ -1,5 +1,6 @@
 ---
-title: Find and Manipulate WSL Linux Files and Directories from Windows
+title: "WSL: Find and Manipulate WSL Linux Files and Directories from Windows"
+slug: wsl-search-files-windows
 description: >-
   Learn how to manipulate files on WSL Linux from Windows itself.
 author: pachoyan

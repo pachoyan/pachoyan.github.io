@@ -1,5 +1,6 @@
 ---
-title: Install and Use Zed Editor on Windows WSL
+title: "WSL: Install and Use Zed Editor on Windows WSL"
+slug: wsl-zed-editor
 description: >-
   Use Zed Editor for Windows WSL Development Guide
 author: pachoyan

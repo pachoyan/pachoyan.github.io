@@ -1,5 +1,6 @@
 ---
-title: Configure Alacritty on Windows for WSL
+title: "WSL: Configure Alacritty on Windows for WSL"
+slug: wsl-configure-alacritty-windows
 description: >-
   Setup Alacritty to Work with WSL Default on Windows
 author: pachoyan

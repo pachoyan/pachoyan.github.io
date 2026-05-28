@@ -1,5 +1,6 @@
 ---
-title: Configure Windows Terminal for WSL
+title: "WSL: Configure Windows Terminal for WSL"
+slug: wsl-configure-windows-terminal
 description: >-
   Setup Windows Terminal to Work with WSL
 author: pachoyan

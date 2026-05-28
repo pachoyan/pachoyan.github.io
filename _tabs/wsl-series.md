@@ -2,11 +2,10 @@
 title: WSL Series
 icon: fas fa-graduation-cap
 hidden: true
+order: 99
 ---
 
-<p style="margin-bottom: 1rem;">
-  <a href="{{ '/series' | relative_url }}">← Back to Series</a>
-</p>
+[Back to Series]({{ '/series' | relative_url }})
 
 ## WSL Training Series
 
@@ -20,91 +19,22 @@ This structured learning path will take you through everything you need to know 
 
 ### Series Posts
 
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <a href="{{ '/posts/wsl-quick-setup' | relative_url }}">1. WSL Quick Setup</a>
-  </h4>
-</div>
-
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <a href="{{ '/posts/wsl-find-manage-distros' | relative_url }}">2. WSL Find and Install different Distributions</a>
-  </h4>
-</div>
-
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <p>3. Windows WSL Interoperability</p>
-  </h4>
-  
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-search-files-windows' | relative_url }}">3.1. Find and Manipulate WSL Linux Files and Directories from Windows</a>
-    </h5>
-  </div>
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-search-files-windows' | relative_url }}">3.2. WSL Windows Interoperability</a>
-    </h5>
-  </div>
-</div>
-
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <a href="{{ '/posts/wsl-list-terminals' | relative_url }}">4. List of Terminals for Windows Subsystem Linux</a>
-  </h4>
-  
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-windows-terminal' | relative_url }}">4.1. Configure Windows Terminal for WSL</a>
-    </h5>
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-alacritty-windows' | relative_url }}">4.2. Configure Alacritty on Windows for WSL</a>
-    </h5>
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-configure-wezterm-windows' | relative_url }}">4.3. Configure Wezterm on Windows for WSL</a>
-    </h5>
-  </div>
-</div>
-
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <p>5. Nix and Nix Flakes on Ubuntu WSL</p>
-  </h4>
-  
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-ubuntu-nix-setup' | relative_url }}">5.1. WSL Ubuntu Nix Setup</a>
-    </h5>
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-ubuntu-nix-flakes-reproducible' | relative_url }}">5.2. WSL Ubuntu Reproducible Environments with Nix Flakes</a>
-    </h5>
-  </div>
-</div>
-
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <p>6. Configure and Use of IDE(s) and Editors to work with WSL</p>
-  </h4>
-  
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">6.1. Install and Use Zed Editor on Windows WSL</a>
-    </h5>
-  </div>
-</div>
-
-<div style="margin-bottom: 2rem;">
-  <h4 style="margin-bottom: 0.5rem;">
-    <p>7. Containers on WSL</p>
-  </h4>
-  
-  <div style="margin-left: 1.5rem; margin-top: 1rem;">
-    <h5 style="margin-bottom: 0.5rem;">
-      <a href="{{ '/posts/wsl-zed-editor' | relative_url }}">7.1. Install Podman on WSL Ubuntu</a>
-    </h5>
-  </div>
-</div>
+1. [WSL Quick Setup]({{ '/posts/wsl-quick-setup' | relative_url }})
+2. [WSL Find and Install Different Distributions]({{ '/posts/wsl-find-manage-distros' | relative_url }})
+3. Windows and WSL Interoperability
+   - [Find and Manipulate WSL Files from Windows]({{ '/posts/wsl-search-files-windows' | relative_url }})
+4. [List of Terminals for WSL]({{ '/posts/wsl-list-terminals' | relative_url }})
+   - [Configure Windows Terminal for WSL]({{ '/posts/wsl-configure-windows-terminal' | relative_url }})
+   - [Configure Alacritty on Windows for WSL]({{ '/posts/wsl-configure-alacritty-windows' | relative_url }})
+   - [Configure WezTerm on Windows for WSL]({{ '/posts/wsl-configure-wezterm-windows' | relative_url }})
+5. Nix and Nix Flakes on Ubuntu WSL
+   - [WSL Ubuntu Nix Setup]({{ '/posts/wsl-ubuntu-nix-setup' | relative_url }})
+   - [WSL Ubuntu Reproducible Environments with Nix Flakes]({{ '/posts/wsl-ubuntu-nix-flakes-reproducible' | relative_url }})
+6. Editors and IDEs for WSL
+   - [Install and Use Zed Editor on WSL]({{ '/posts/wsl-zed-editor' | relative_url }})
+   - [Install and Use Eclipse IDE on WSL]({{ '/posts/wsl-eclipse-ide' | relative_url }})
+7. Containers on WSL
+   - [Podman Setup on Windows]({{ '/posts/podman-setup-windows' | relative_url }})
 
 ---
 

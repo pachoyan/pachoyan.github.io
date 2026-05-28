@@ -1,5 +1,6 @@
 ---
-title: Scoop Windows Package Manager Quickstart
+title: "WIN: Scoop Windows Package Manager Quickstart"
+slug: windows-package-manager-scoop-quickstart
 description: >-
   Quick Introduction to Windows scoop package manager
 author: pachoyan

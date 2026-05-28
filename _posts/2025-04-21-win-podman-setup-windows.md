@@ -1,5 +1,6 @@
 ---
-title: Podman setup on Windows (and local Kubernetes cluster)
+title: "WIN: Podman setup on Windows (and local Kubernetes cluster)"
+slug: podman-setup-windows
 description: >-
   Setup podman on Windows step by step (plus a local Kubernetes cluster with Podman)
 author: pachoyan

@@ -1,5 +1,6 @@
 ---
-title: Choosing a Terminal for WSL on Windows
+title: "WSL: Choosing a Terminal for WSL on Windows"
+slug: wsl-list-terminals
 description: >-
   Choosing a Terminal for WSL on Windows - different options
 author: pachoyan

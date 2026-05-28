@@ -1,5 +1,6 @@
 ---
-title: Git Commands you should be using - Enhance Your Workflow
+title: "GIT: Commands you should be using - Enhance Your Workflow"
+slug: git-commands-you-should-be-using
 description: >-
   I recommend you to start using these git commands if you are not.
 author: pachoyan

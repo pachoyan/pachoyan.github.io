@@ -1,7 +1,7 @@
 ---
 title: Series
 icon: fas fa-book
-order: 2
+order: 5
 ---
 
 ## Learning Series

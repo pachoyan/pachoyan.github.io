@@ -1,5 +1,6 @@
 ---
-title: Manage Multiple GitHub Accounts Locally
+title: "GIT: Manage Multiple GitHub Accounts Locally"
+slug: manage-multiple-github-accounts
 description: >-
   Learn how to manage multiple GitHub Accounts Locally
 author: pachoyan

@@ -1,5 +1,6 @@
 ---
-title: How to quickly and easily set up Git on Windows
+title: "GIT: How to quickly and easily set up Git on Windows"
+slug: easy-and-quick-git-setup-on-windows
 description: >-
   Setup Git with sensible configurations on Windows very easily
 author: pachoyan

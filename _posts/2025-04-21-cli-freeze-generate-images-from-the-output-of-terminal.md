@@ -1,5 +1,6 @@
 ---
-title: Freeze — Generate images from the otuput of your terminal
+title: "CLI: Freeze — Generate images from the otuput of your terminal"
+slug: freeze-generate-images-from-the-output-of-terminal
 description: >-
   freeze cli to generate images of your terminal output
 author: pachoyan

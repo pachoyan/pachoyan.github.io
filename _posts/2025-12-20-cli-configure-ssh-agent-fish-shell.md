@@ -1,5 +1,6 @@
 ---
-title: Configure ssh-agent and keychain on Fish Shell
+title: "CLI: Configure ssh-agent and keychain on Fish Shell"
+slug: configure-ssh-agent-fish-shell
 description: >-
   Configuring ssh-agent and keychain to work on multiple sessions on Fish
 author: pachoyan

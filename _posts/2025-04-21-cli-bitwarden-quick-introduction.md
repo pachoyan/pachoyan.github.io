@@ -1,5 +1,6 @@
 ---
-title: Bitwarden CLI — Quick Introduction
+title: "CLI: Bitwarden CLI — Quick Introduction"
+slug: bitwarden-cli-quick-introduction
 description: >-
   Quick Introduction on How To use Bitwarden CLI (ak bw)
 author: pachoyan

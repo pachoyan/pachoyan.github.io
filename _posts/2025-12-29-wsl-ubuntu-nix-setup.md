@@ -1,5 +1,6 @@
 ---
-title: WSL Ubuntu Nix Setup
+title: "WSL: Ubuntu Nix Setup"
+slug: wsl-ubuntu-nix-setup
 description: >-
   Setup Nix and Nix Flakes on Ubuntu WSL
 author: pachoyan

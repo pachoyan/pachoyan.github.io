@@ -1,5 +1,6 @@
 ---
-title: WSL Ubuntu Nix Flakes Reproducible Environments
+title: "WSL: Ubuntu Nix Flakes Reproducible Environments"
+slug: wsl-ubuntu-nix-flakes-reproducible
 description: >-
   Reproducible Environments with Nix Flakes on WSL Ubuntu 
 author: pachoyan

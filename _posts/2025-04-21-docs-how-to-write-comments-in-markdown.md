@@ -1,5 +1,6 @@
 ---
-title: How to write comments in Markdown
+title: "DOCS: How to write comments in Markdown"
+slug: how-to-write-comments-in-markdown
 description: >-
   Explore the different alternatives of writing comments on Markdown
 author: pachoyan
