@@ -17,8 +17,15 @@ import SocialIcon from './SocialIcon.astro';
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/tags">Tags</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
+			<details class="more-menu">
+				<summary>More</summary>
+				<div class="more-items">
+					<HeaderLink href="/series">Series</HeaderLink>
+					<HeaderLink href="/tags">Tags</HeaderLink>
+					<HeaderLink href="/archives">Archives</HeaderLink>
+				</div>
+			</details>
 		</div>
 		<div class="social-links">
 			<div class="header-search">
@@ -91,9 +98,57 @@ import SocialIcon from './SocialIcon.astro';
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}
+	nav a:hover,
+	.more-menu summary:hover {
+		background: rgba(var(--gray-light), 0.45);
+	}
+	.internal-links {
+		display: flex;
+		align-items: center;
+	}
 	.social-links,
 	.social-links a {
 		display: flex;
+	}
+	.more-menu {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+	}
+	.more-menu summary {
+		list-style: none;
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+		padding: 1em 0.5em;
+		border-bottom: 4px solid transparent;
+	}
+	.more-menu summary::-webkit-details-marker {
+		display: none;
+	}
+	.more-menu[open] summary {
+		border-bottom-color: var(--accent);
+	}
+	.more-items {
+		position: absolute;
+		top: calc(100% - 0.2rem);
+		left: 0;
+		min-width: 150px;
+		padding: 0.4rem;
+		background: #fff;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+		box-shadow: 0 8px 24px rgba(var(--gray), 18%);
+		z-index: 10;
+	}
+	.more-items :global(a) {
+		display: block;
+		padding: 0.45rem 0.6rem;
+		border-bottom: 0;
+	}
+	.more-items :global(a:hover) {
+		background: rgba(var(--gray-light), 0.65);
+		border-radius: 6px;
 	}
 	.social-links {
 		align-items: center;
@@ -133,6 +188,14 @@ import SocialIcon from './SocialIcon.astro';
 		.internal-links {
 			order: 3;
 			width: 100%;
+			display: flex;
+			align-items: center;
+			gap: 0.2rem;
+			flex-wrap: wrap;
+		}
+		.more-items {
+			left: auto;
+			right: 0;
 		}
 		.social-links {
 			order: 2;
