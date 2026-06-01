@@ -3,6 +3,7 @@ title: "DB: Configure Oracle sqlcl MCP Server for AI Agents"
 description: "If you are working on an Oracle Database and would like to let your agents interact with the database using an MCP server, sqlcl from Oracle is a good choice."
 pubDate: 2025-12-19 21:00:00 +0800
 heroImage: "/images/2025-12-20-configure-oracle-sqlcl-mcp-for-ai/preview.png"
+tags: [terminal, cli, oracle, ai, mcp]
 ---
 ## Introduction
 

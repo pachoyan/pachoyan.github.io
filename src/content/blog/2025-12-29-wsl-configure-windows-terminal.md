@@ -3,6 +3,7 @@ title: "WSL: Configure Windows Terminal for WSL"
 description: "Setup Windows Terminal to Work with WSL"
 pubDate: 2025-12-29 12:00:00 +0800
 heroImage: "/images/2025-12-29-wsl-configure-windows-terminal/preview.png"
+tags: [windows, wsl, linux, ubuntu, wsl-series]
 ---
 ## Introduction
 

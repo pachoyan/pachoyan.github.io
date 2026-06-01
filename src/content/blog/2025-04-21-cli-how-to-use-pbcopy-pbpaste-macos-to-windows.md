@@ -3,6 +3,7 @@ title: "CLI: How to use Pbcopy and Pbpaste commands from MacOS on Windows"
 description: "Use the popular `pbcopy` and `pbpaste` commands from MacOS on PowerShell"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-how-to-use-pbcopy-pbpaste-macos-to-windows/preview.png"
+tags: [windows, terminal, cli, tool]
 ---
 ## Introduction
 

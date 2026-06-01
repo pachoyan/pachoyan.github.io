@@ -3,6 +3,7 @@ title: "WSL: Find and Install different Distributions"
 description: "Discovery Different Available Distros for WSL on Windows"
 pubDate: 2025-12-29 15:00:00 +0800
 heroImage: "/images/2025-12-28-wsl-quick-setup/preview.png"
+tags: [windows, wsl, linux, ubuntu, wsl-series]
 ---
 ## Introduction
 

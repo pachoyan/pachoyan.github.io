@@ -3,6 +3,7 @@ title: "GIT: Commands you should be using - Enhance Your Workflow"
 description: "I recommend you to start using these git commands if you are not."
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-git-commands-you-should-be-using/preview.png"
+tags: [git]
 ---
 ## Create Stash with a Single File/Path
 

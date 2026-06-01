@@ -3,6 +3,7 @@ title: "WSL: Ubuntu Nix Setup"
 description: "Setup Nix and Nix Flakes on Ubuntu WSL"
 pubDate: 2025-12-29 10:00:00 +0800
 heroImage: "/images/2025-12-29-wsl-ubuntu-nix-setup/preview.png"
+tags: [windows, wsl, linux, ubuntu, wsl-series]
 ---
 ## Introduction
 

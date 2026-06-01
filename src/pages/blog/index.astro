@@ -9,6 +9,13 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+const tagCounts = posts.reduce((acc, post) => {
+	for (const tag of post.data.tags ?? []) {
+		acc.set(tag, (acc.get(tag) ?? 0) + 1);
+	}
+	return acc;
+}, new Map<string, number>());
+const tags = [...tagCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 ---
 
 <!doctype html>
@@ -16,6 +23,19 @@ const posts = (await getCollection('blog')).sort(
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
+			.tag-filter {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.55rem;
+				margin: 0 0 1rem;
+			}
+			.tag-filter a {
+				font-size: 0.82rem;
+				padding: 0.2rem 0.6rem;
+				border-radius: 999px;
+				border: 1px solid rgb(var(--gray-light));
+				text-decoration: none;
+			}
 			main {
 				width: 920px;
 			}
@@ -63,6 +83,18 @@ const posts = (await getCollection('blog')).sort(
 				color: rgb(var(--black));
 				line-height: 1;
 			}
+			.tags {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.4rem;
+				margin-top: 0.45rem;
+			}
+			.tags span {
+				font-size: 0.75rem;
+				padding: 0.1rem 0.5rem;
+				border-radius: 999px;
+				background: rgba(var(--gray-light), 0.75);
+			}
 			.date {
 				margin: 0;
 				color: rgb(var(--gray));
@@ -94,6 +126,13 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
+			{tags.length > 0 && (
+				<nav class="tag-filter" aria-label="Blog tags">
+					{tags.map(([tag, count]) => (
+						<a href={`/tags/${encodeURIComponent(tag)}/`}>{tag} ({count})</a>
+					))}
+				</nav>
+			)}
 			<section>
 				<ul>
 					{
@@ -107,6 +146,13 @@ const posts = (await getCollection('blog')).sort(
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
+									{post.data.tags && post.data.tags.length > 0 && (
+										<p class="tags">
+											{post.data.tags.map((tag) => (
+												<span>{tag}</span>
+											))}
+										</p>
+									)}
 								</a>
 							</li>
 						))

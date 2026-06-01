@@ -3,6 +3,7 @@ title: "WINDOWS: Podman setup on Windows (and local Kubernetes cluster)"
 description: "Setup podman on Windows step by step (plus a local Kubernetes cluster with Podman)"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-podman-setup-windows/preview.png"
+tags: [windows, containers, podman]
 ---
 ## Introduction
 

@@ -3,6 +3,7 @@ title: "WSL: Choosing a Terminal for WSL on Windows"
 description: "Choosing a Terminal for WSL on Windows - different options"
 pubDate: 2025-12-29 22:00:00 +0800
 heroImage: "/images/2025-12-29-wsl-list-terminals/preview.png"
+tags: [windows, wsl, linux, terminal, wsl-series]
 ---
 ## Terminals
 

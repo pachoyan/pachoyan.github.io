@@ -3,6 +3,7 @@ title: "CLI: Boost Your Command line - Must-Have Modern terminal Tools"
 description: "List of modern cli tools that increase your productivity on the terminal."
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-boost-your-command-line/preview.png"
+tags: [terminal, cli, tool]
 ---
 ## zoxide
 

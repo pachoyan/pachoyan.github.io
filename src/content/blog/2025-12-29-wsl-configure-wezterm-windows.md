@@ -3,6 +3,7 @@ title: "WSL: Configure Wezterm on Windows for WSL"
 description: "Setup Wezterm to Work with WSL Default on Windows"
 pubDate: 2025-12-29 12:00:00 +0800
 heroImage: "/images/2025-12-29-wsl-configure-wezterm-windows/preview.png"
+tags: [windows, wsl, linux, ubuntu, wsl-series]
 ---
 ## Introduction
 

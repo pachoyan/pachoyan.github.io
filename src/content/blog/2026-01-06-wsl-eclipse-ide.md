@@ -3,6 +3,7 @@ title: "WSL: Install and Use Eclipse IDE on Windows WSL"
 description: "Use Eclipse IDE for Windows WSL Development Guide"
 pubDate: 2026-01-04 22:00:00 +0800
 heroImage: "/images/2026-01-06-wsl-eclipse-ide/preview.png"
+tags: [windows, wsl, linux, terminal, editor, eclipse-ide, wsl-series]
 ---
 ## Introduction
 

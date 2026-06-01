@@ -3,6 +3,7 @@ title: "CLI: Configure ssh-agent and keychain on Fish Shell"
 description: "Configuring ssh-agent and keychain to work on multiple sessions on Fish"
 pubDate: 2025-12-19 21:00:00 +0800
 heroImage: "/images/2025-12-20-configure-ssh-agent-fish-shell/preview.png"
+tags: [terminal, linux, fish, ssh, git]
 ---
 ## Introduction
 

@@ -3,6 +3,7 @@ title: "CLI: Freeze — Generate images from the otuput of your terminal"
 description: "freeze cli to generate images of your terminal output"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-freeze-generate-images-from-the-output-of-terminal/preview.png"
+tags: [terminal, cli, tool]
 ---
 ## Introduction
 

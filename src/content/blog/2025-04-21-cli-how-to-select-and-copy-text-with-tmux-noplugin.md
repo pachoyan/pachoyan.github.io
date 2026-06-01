@@ -3,6 +3,7 @@ title: "CLI: How to quickly select and copy any text with TMUX — no plugin req
 description: "Select and copy faster than ever using TMUX without plugins"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-how-to-select-and-copy-text-with-tmux-noplugin/preview.png"
+tags: [terminal, cli, tmux]
 ---
 ## Introduction
 

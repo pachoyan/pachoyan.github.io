@@ -3,6 +3,7 @@ title: "WSL: Configure Alacritty on Windows for WSL"
 description: "Setup Alacritty to Work with WSL Default on Windows"
 pubDate: 2025-12-29 12:00:00 +0800
 heroImage: "/images/2025-12-29-wsl-configure-alacritty-windows/preview.png"
+tags: [windows, wsl, linux, ubuntu, wsl-series]
 ---
 ## Introduction
 

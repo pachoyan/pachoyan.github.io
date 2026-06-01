@@ -3,6 +3,7 @@ title: "WINDOWS: Python Setup on Windows (using scoop)"
 description: "Complete Python Setup on Windows using scoop."
 pubDate: 2025-12-19 21:00:00 +0800
 heroImage: "/images/2025-12-22-python-development-environment-windows/preview.png"
+tags: [windows, python]
 ---
 ## Introduction
 

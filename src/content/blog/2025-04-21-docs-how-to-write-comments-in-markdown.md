@@ -3,6 +3,7 @@ title: "DOCS: How to write comments in Markdown"
 description: "Explore the different alternatives of writing comments on Markdown"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-how-to-write-comments-in-markdown/preview.png"
+tags: [markdown]
 ---
 ## Introduction
 

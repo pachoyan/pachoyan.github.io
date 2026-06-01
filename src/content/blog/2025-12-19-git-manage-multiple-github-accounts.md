@@ -3,6 +3,7 @@ title: "GIT: Manage Multiple GitHub Accounts Locally"
 description: "Learn how to manage multiple GitHub Accounts Locally"
 pubDate: 2025-12-19 21:00:00 +0800
 heroImage: "/images/2025-12-19-manage-multiple-github-accounts/preview.png"
+tags: [terminal, cli, git, github]
 ---
 ## Introduction
 

@@ -3,6 +3,7 @@ title: "DB: Oracle SQLcl - Best tips for Configuration and Usage"
 description: "SLSQLcl is a command line interface for Oralce Databases. It is a more modern tool than the popular SQLPlus."
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-oracle-sqlcl-tips/preview.png"
+tags: [terminal, cli, tool, oracle]
 ---
 ## Introduction
 

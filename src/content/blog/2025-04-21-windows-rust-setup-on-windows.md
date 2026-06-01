@@ -3,6 +3,7 @@ title: "WINDOWS: Rust setup on Windows - Using rustup"
 description: "Setup Rust on Windows step by step"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-rust-setup-on-windows/preview.png"
+tags: [windows, programming, rust]
 ---
 ## Introduction
 

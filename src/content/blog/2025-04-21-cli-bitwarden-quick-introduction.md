@@ -3,6 +3,7 @@ title: "CLI: Bitwarden CLI — Quick Introduction"
 description: "Quick Introduction on How To use Bitwarden CLI (ak bw)"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-bitwarden-cli-quick-introduction/preview.png"
+tags: [terminal, cli, password-manager, bitwarden]
 ---
 ## Introduction
 

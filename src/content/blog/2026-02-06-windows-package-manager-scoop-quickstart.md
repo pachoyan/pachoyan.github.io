@@ -3,6 +3,7 @@ title: "WINDOWS: Scoop Windows Package Manager Quickstart"
 description: "Quick Introduction to Windows scoop package manager"
 pubDate: 2026-02-06 20:00:00 +0800
 heroImage: "/images/2026-02-06-windows-package-manager-scoop-quickstart/preview.png"
+tags: [terminal, cli, package-manager, scoop]
 ---
 ## Introduction
 

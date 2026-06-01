@@ -3,6 +3,7 @@ title: "GIT: How to quickly and easily set up Git on Windows"
 description: "Setup Git with sensible configurations on Windows very easily"
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-easy-and-quick-git-setup-on-windows/preview.png"
+tags: [windows, git, terminal]
 ---
 ## Install
 

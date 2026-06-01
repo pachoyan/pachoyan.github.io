@@ -3,6 +3,7 @@ title: "WINDOWS: Efficient Powershell Script Management on Windows - Using Scoop
 description: "Automate PowerShell script Management using scoop on Windows."
 pubDate: 2025-04-21 20:00:00 +0800
 heroImage: "/images/2025-04-21-efficient-pwsh-script-management-windows-scoop/preview.png"
+tags: [windows, powershell]
 ---
 ## Introduction
 

@@ -3,6 +3,7 @@ title: "WSL: Ubuntu Nix Flakes Reproducible Environments"
 description: "Reproducible Environments with Nix Flakes on WSL Ubuntu"
 pubDate: 2025-12-29 22:00:00 +0800
 heroImage: "/images/2025-12-29-wsl-ubuntu-nix-setup/preview.png"
+tags: [windows, wsl, linux, ubuntu, wsl-series]
 ---
 ## Introduction
 
