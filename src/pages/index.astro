@@ -1,0 +1,177 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import SocialIcon from "../components/SocialIcon.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="intro">
+				<img src="/avatar.svg" alt="Portrait of Pau" class="avatar" />
+				<div>
+					<h2>
+						Hi, I'm Pau
+						<span class="title-dot" aria-hidden="true"></span>
+					</h2>
+					<p>
+						I'm a software engineer and tech lead with experience across
+						backend development, data engineering, platform engineering, and
+						cloud-native technologies.
+					</p>
+
+					<p>
+						This blog is a collection of tutorials, notes, and practical
+						posts about tools and workflows I use day to day. I focus on
+						useful setups, configurations, and small improvements that make
+						development smoother.
+					</p>
+				</div>
+			</section>
+
+			<h4>Topics You'll Find Here</h4>
+
+			<ul>
+				<li>Terminal workflows and command-line productivity</li>
+				<li>WSL tips, Linux setup, and local development environments</li>
+				<li>Shell configuration (Fish, aliases, prompts, and plugins)</li>
+				<li>Developer tooling, automation, and quality-of-life tweaks</li>
+				<li>Practical how-tos for backend and everyday engineering tasks</li>
+				<li>Short notes on tools, experiments, and things worth sharing</li>
+			</ul>
+
+			<h4>About Me</h4>
+
+			<p>
+				If you'd like to know more about my professional background, you
+				can check out my
+				<a href="/cv">CV</a> or connect with me on
+				<a
+					href="https://www.linkedin.com/in/pachoyan/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					LinkedIn
+				</a>.
+			</p>
+
+			<h4>Community & Writing</h4>
+
+			<div class="community-links">
+				<a
+					href="https://stackoverflow.com/users/4751165/pau"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<SocialIcon name="stackoverflow" size={18} />
+					Stack Overflow
+				</a>
+				<a
+					href="https://app.daily.dev/pachoyan"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<SocialIcon name="dailydev" size={18} />
+					daily.dev
+				</a>
+				<a
+					href="https://medium.com/@pachoyan"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<SocialIcon name="medium" size={18} />
+					Medium
+				</a>
+			</div>
+
+			<h4>Open Source</h4>
+
+			<p>
+				I enjoy contributing to open-source projects and building tools
+				that improve the developer experience.
+			</p>
+
+			<ul>
+				<li>
+					<a href="https://github.com/pachoyan/scoop-bucket">
+						scoop-bucket
+					</a>
+					— Utilities and scripts for managing developer tooling with Scoop.
+				</li>
+			</ul>
+
+			<p>Thanks for visiting. I hope you find something useful here.</p>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.intro {
+		display: grid;
+		grid-template-columns: 132px minmax(0, 1fr);
+		gap: 1rem 1.2rem;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+
+	.avatar {
+		width: 132px;
+		height: 132px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 2px solid rgb(var(--gray-light));
+		box-shadow: 0 8px 20px rgba(var(--gray), 18%);
+	}
+
+	.title-dot {
+		display: inline-block;
+		width: 0.5em;
+		height: 0.5em;
+		margin-left: 0.35rem;
+		border-radius: 50%;
+		vertical-align: middle;
+		background: var(--accent);
+	}
+
+	.community-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.85rem;
+		margin-bottom: 1rem;
+	}
+
+	.community-links a {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+		padding: 0.25rem 0.7rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 999px;
+		text-decoration: none;
+	}
+
+	.community-links a svg {
+		flex: none;
+	}
+
+	@media (max-width: 720px) {
+		.intro {
+			grid-template-columns: 1fr;
+			justify-items: start;
+		}
+
+		.avatar {
+			width: 108px;
+			height: 108px;
+		}
+	}
+
+</style>
