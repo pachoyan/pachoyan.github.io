@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = "Pau's Blog";
 export const SITE_DESCRIPTION = 'My journey with different technologie.';
+export const GOATCOUNTER_ID = 'pachoyan';
