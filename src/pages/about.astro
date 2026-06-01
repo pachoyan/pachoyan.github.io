@@ -1,0 +1,114 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import SocialIcon from '../components/SocialIcon.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`About | ${SITE_TITLE}`} description="About Pau Chorro" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="intro">
+				<img src="/avatar.svg" alt="Portrait of Pau Chorro" class="avatar" />
+				<div>
+					<h2>About Pau Chorro</h2>
+					<p>Software and data engineer focused on practical tooling and developer workflows.</p>
+				</div>
+			</section>
+
+			<p>
+				You can view my <a href="/cv">CV online</a>, or connect with me on
+				<a href="https://www.linkedin.com/in/pachoyan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+			</p>
+
+			<h4>Community</h4>
+			<div class="community-links">
+				<a href="https://stackoverflow.com/users/4751165/pau" target="_blank" rel="noopener noreferrer">
+					<SocialIcon name="stackoverflow" size={18} /> Stack Overflow
+				</a>
+				<a href="https://app.daily.dev/pachoyan" target="_blank" rel="noopener noreferrer">
+					<SocialIcon name="dailydev" size={18} /> daily.dev
+				</a>
+				<a href="https://medium.com/@pachoyan" target="_blank" rel="noopener noreferrer">
+					<SocialIcon name="medium" size={18} /> Medium
+				</a>
+			</div>
+
+			<div class="media-grid">
+				<img src="/images/about/stackoverflow.svg" alt="Stack Overflow profile badge" class="stack-badge" />
+				<a href="https://app.daily.dev/pachoyan" target="_blank" rel="noopener noreferrer">
+					<img
+						src="https://api.daily.dev/devcards/v2/1vmdZBfxdHtvhAJjBAQ3k.png?type=wide&r=opt"
+						alt="Pau Chorro daily.dev card"
+						loading="lazy"
+					/>
+				</a>
+			</div>
+
+			<h4>Projects</h4>
+			<ul>
+				<li>
+					<a href="https://github.com/pachoyan/scoop-bucket" target="_blank" rel="noopener noreferrer">
+						scoop-bucket
+					</a>
+					- Script and tooling manifests for Scoop on Windows.
+				</li>
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.intro {
+		display: grid;
+		grid-template-columns: 124px minmax(0, 1fr);
+		gap: 1rem;
+		align-items: center;
+	}
+	.avatar {
+		width: 124px;
+		height: 124px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 2px solid rgb(var(--gray-light));
+	}
+	.community-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.8rem;
+		margin-bottom: 1rem;
+	}
+	.community-links a {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+		padding: 0.2rem 0.65rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 999px;
+		text-decoration: none;
+	}
+	.media-grid {
+		display: grid;
+		gap: 0.9rem;
+		margin-bottom: 1rem;
+	}
+	.stack-badge {
+		max-width: 280px;
+		background: #fff;
+		padding: 0.7rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+	}
+	@media (max-width: 720px) {
+		.intro {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

@@ -1,0 +1,212 @@
+---
+import { SITE_TITLE } from '../consts';
+import PagefindConfig from 'astro-pagefind/components/PagefindConfig.astro';
+import HeaderLink from './HeaderLink.astro';
+import SocialIcon from './SocialIcon.astro';
+---
+
+<header>
+	<PagefindConfig />
+	<nav>
+		<h2>
+			<a href="/">
+				<img src="/avatar.svg" alt="" aria-hidden="true" class="title-avatar" />
+				{SITE_TITLE}
+			</a>
+		</h2>
+		<div class="internal-links">
+			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/blog">Blog</HeaderLink>
+			<HeaderLink href="/about">About</HeaderLink>
+			<details class="more-menu">
+				<summary>More</summary>
+				<div class="more-items">
+					<HeaderLink href="/series">Series</HeaderLink>
+					<HeaderLink href="/tags">Tags</HeaderLink>
+					<HeaderLink href="/archives">Archives</HeaderLink>
+				</div>
+			</details>
+		</div>
+		<div class="social-links">
+			<div class="header-search">
+				<pagefind-searchbox></pagefind-searchbox>
+			</div>
+			<a href="https://pachoyan.com/cv/" target="_blank" rel="noopener noreferrer" class="cv-link">
+				CV
+			</a>
+			<a
+				href="https://www.linkedin.com/in/pachoyan/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<span class="sr-only">LinkedIn</span>
+				<SocialIcon name="linkedin" size={28} />
+			</a>
+			<a
+				href="https://medium.com/@pachoyan"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<span class="sr-only">Medium</span>
+				<SocialIcon name="medium" size={28} />
+			</a>
+			<a href="https://github.com/pachoyan" target="_blank" rel="noopener noreferrer">
+				<span class="sr-only">Go to my GitHub</span>
+				<SocialIcon name="github" size={32} />
+			</a>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0 1em;
+		background: white;
+		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+	}
+	.title-avatar {
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 1px solid rgb(var(--gray-light));
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav a {
+		padding: 1em 0.5em;
+		color: var(--black);
+		border-bottom: 4px solid transparent;
+		text-decoration: none;
+	}
+	nav a.active {
+		text-decoration: none;
+		border-bottom-color: var(--accent);
+	}
+	nav a:hover,
+	.more-menu summary:hover {
+		background: rgba(var(--gray-light), 0.45);
+	}
+	.internal-links {
+		display: flex;
+		align-items: center;
+	}
+	.social-links,
+	.social-links a {
+		display: flex;
+	}
+	.more-menu {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+	}
+	.more-menu summary {
+		list-style: none;
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+		padding: 1em 0.5em;
+		border-bottom: 4px solid transparent;
+	}
+	.more-menu summary::-webkit-details-marker {
+		display: none;
+	}
+	.more-menu[open] summary {
+		border-bottom-color: var(--accent);
+	}
+	.more-items {
+		position: absolute;
+		top: calc(100% - 0.2rem);
+		left: 0;
+		min-width: 150px;
+		padding: 0.4rem;
+		background: #fff;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+		box-shadow: 0 8px 24px rgba(var(--gray), 18%);
+		z-index: 10;
+	}
+	.more-items :global(a) {
+		display: block;
+		padding: 0.45rem 0.6rem;
+		border-bottom: 0;
+	}
+	.more-items :global(a:hover) {
+		background: rgba(var(--gray-light), 0.65);
+		border-radius: 6px;
+	}
+	.social-links {
+		align-items: center;
+		gap: 0.5rem;
+	}
+	.header-search {
+		min-width: 220px;
+		max-width: 280px;
+	}
+	:global(.header-search .pagefind-ui) {
+		font-size: 0.9rem;
+	}
+	:global(.header-search .pagefind-ui__search-input) {
+		padding: 0.35rem 0.55rem;
+	}
+	.social-links a {
+		align-items: center;
+		justify-content: center;
+	}
+	.social-links .cv-link {
+		padding: 0.35rem 0.7rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 999px;
+		font-size: 0.8rem;
+		font-weight: 600;
+		line-height: 1;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+	.social-links .cv-link:hover {
+		border-color: var(--accent);
+	}
+	@media (max-width: 720px) {
+		nav {
+			flex-wrap: wrap;
+			gap: 0.6rem;
+		}
+		.internal-links {
+			order: 3;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			gap: 0.2rem;
+			flex-wrap: wrap;
+		}
+		.more-items {
+			left: auto;
+			right: 0;
+		}
+		.social-links {
+			order: 2;
+			width: 100%;
+			justify-content: space-between;
+			display: flex;
+		}
+		.header-search {
+			min-width: 0;
+			max-width: 100%;
+			flex: 1;
+		}
+	}
+</style>

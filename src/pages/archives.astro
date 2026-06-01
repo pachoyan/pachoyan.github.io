@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+
+const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const grouped = posts.reduce((acc, post) => {
+	const year = post.data.pubDate.getFullYear().toString();
+	if (!acc.has(year)) acc.set(year, []);
+	acc.get(year)?.push(post);
+	return acc;
+}, new Map<string, typeof posts>());
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Archives | ${SITE_TITLE}`} description="All posts by date" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2>Archives</h2>
+			{[...grouped.entries()].map(([year, yearPosts]) => (
+				<section>
+					<h3>{year}</h3>
+					<ul>
+						{yearPosts.map((post) => (
+							<li>
+								<a href={`/blog/${post.id}/`}>{post.data.title}</a>
+								<span class="date"><FormattedDate date={post.data.pubDate} /></span>
+							</li>
+						))}
+					</ul>
+				</section>
+			))}
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	ul {
+		padding-left: 1rem;
+	}
+	.date {
+		margin-left: 0.6rem;
+		color: rgb(var(--gray));
+		font-size: 0.9rem;
+	}
+</style>

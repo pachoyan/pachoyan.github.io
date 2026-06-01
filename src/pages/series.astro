@@ -1,0 +1,47 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Series | ${SITE_TITLE}`} description="Structured post series" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2>Series</h2>
+			<p>Structured learning paths covering topics in depth.</p>
+
+			<section class="series-card">
+				<h3><a href="/tags/wsl-series/">WSL Series</a></h3>
+				<p>
+					A practical guide for Windows Subsystem for Linux, from setup to terminals,
+					environments, editors, and workflows.
+				</p>
+			</section>
+
+			<p class="muted">More series coming soon.</p>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.series-card {
+		padding: 1rem;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 10px;
+		background: #fff;
+	}
+	.series-card h3 {
+		margin-bottom: 0.4rem;
+	}
+	.muted {
+		color: rgb(var(--gray));
+		font-style: italic;
+	}
+</style>

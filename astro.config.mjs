@@ -1,0 +1,43 @@
+// @ts-check
+
+import mdx from '@astrojs/mdx';
+import { unified } from '@astrojs/markdown-remark';
+import sitemap from '@astrojs/sitemap';
+import pagefind from 'astro-pagefind';
+import { defineConfig, fontProviders } from 'astro/config';
+import remarkGithubBlockquoteAlert from 'remark-github-blockquote-alert';
+
+// https://astro.build/config
+export default defineConfig({
+	site: 'https://example.com',
+	integrations: [mdx(), sitemap(), pagefind()],
+	markdown: {
+		processor: unified({
+			remarkPlugins: [remarkGithubBlockquoteAlert],
+		}),
+	},
+	fonts: [
+		{
+			provider: fontProviders.local(),
+			name: 'Atkinson',
+			cssVariable: '--font-atkinson',
+			fallbacks: ['sans-serif'],
+			options: {
+				variants: [
+					{
+						src: ['./src/assets/fonts/atkinson-regular.woff'],
+						weight: 400,
+						style: 'normal',
+						display: 'swap',
+					},
+					{
+						src: ['./src/assets/fonts/atkinson-bold.woff'],
+						weight: 700,
+						style: 'normal',
+						display: 'swap',
+					},
+				],
+			},
+		},
+	],
+});
