@@ -3,11 +3,15 @@
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
+import remarkGithubBlockquoteAlert from 'remark-github-blockquote-alert';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://example.com',
 	integrations: [mdx(), sitemap()],
+	markdown: {
+		remarkPlugins: [remarkGithubBlockquoteAlert],
+	},
 	fonts: [
 		{
 			provider: fontProviders.local(),
