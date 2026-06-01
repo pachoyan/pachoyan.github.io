@@ -1,10 +1,12 @@
 ---
 import { SITE_TITLE } from '../consts';
+import PagefindConfig from 'astro-pagefind/components/PagefindConfig.astro';
 import HeaderLink from './HeaderLink.astro';
 import SocialIcon from './SocialIcon.astro';
 ---
 
 <header>
+	<PagefindConfig />
 	<nav>
 		<h2>
 			<a href="/">
@@ -18,6 +20,9 @@ import SocialIcon from './SocialIcon.astro';
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 		<div class="social-links">
+			<div class="header-search">
+				<pagefind-searchbox></pagefind-searchbox>
+			</div>
 			<a href="https://pachoyan.com/cv/" target="_blank" rel="noopener noreferrer" class="cv-link">
 				CV
 			</a>
@@ -93,6 +98,16 @@ import SocialIcon from './SocialIcon.astro';
 		align-items: center;
 		gap: 0.5rem;
 	}
+	.header-search {
+		min-width: 220px;
+		max-width: 280px;
+	}
+	:global(.header-search .pagefind-ui) {
+		font-size: 0.9rem;
+	}
+	:global(.header-search .pagefind-ui__search-input) {
+		padding: 0.35rem 0.55rem;
+	}
 	.social-links a {
 		align-items: center;
 		justify-content: center;
@@ -110,8 +125,24 @@ import SocialIcon from './SocialIcon.astro';
 		border-color: var(--accent);
 	}
 	@media (max-width: 720px) {
+		nav {
+			flex-wrap: wrap;
+			gap: 0.6rem;
+		}
+		.internal-links {
+			order: 3;
+			width: 100%;
+		}
 		.social-links {
-			display: none;
+			order: 2;
+			width: 100%;
+			justify-content: space-between;
+			display: flex;
+		}
+		.header-search {
+			min-width: 0;
+			max-width: 100%;
+			flex: 1;
 		}
 	}
 </style>

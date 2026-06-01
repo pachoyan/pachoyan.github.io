@@ -1,16 +1,20 @@
 // @ts-check
 
 import mdx from '@astrojs/mdx';
+import { unified } from '@astrojs/markdown-remark';
 import sitemap from '@astrojs/sitemap';
+import pagefind from 'astro-pagefind';
 import { defineConfig, fontProviders } from 'astro/config';
 import remarkGithubBlockquoteAlert from 'remark-github-blockquote-alert';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://example.com',
-	integrations: [mdx(), sitemap()],
+	integrations: [mdx(), sitemap(), pagefind()],
 	markdown: {
-		remarkPlugins: [remarkGithubBlockquoteAlert],
+		processor: unified({
+			remarkPlugins: [remarkGithubBlockquoteAlert],
+		}),
 	},
 	fonts: [
 		{
