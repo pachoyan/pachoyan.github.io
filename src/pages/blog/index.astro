@@ -6,10 +6,14 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('blog')).sort(
+const allPosts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
-const tagCounts = posts.reduce((acc, post) => {
+const featuredPost = allPosts[0];
+const posts = allPosts.slice(1, 9);
+const hasNextPage = allPosts.length > 9;
+
+const tagCounts = allPosts.reduce((acc, post) => {
 	for (const tag of post.data.tags ?? []) {
 		acc.set(tag, (acc.get(tag) ?? 0) + 1);
 	}
@@ -58,6 +62,17 @@ const tags = [...tagCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 				width: 100%;
 				margin-bottom: 1rem;
 				text-align: center;
+			}
+			.pager {
+				display: flex;
+				justify-content: flex-end;
+				margin-top: 1rem;
+			}
+			.pager a {
+				padding: 0.35rem 0.8rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 999px;
+				text-decoration: none;
 			}
 			ul li:first-child img {
 				width: 100%;
@@ -135,6 +150,26 @@ const tags = [...tagCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 			)}
 			<section>
 				<ul>
+					{featuredPost && (
+						<li>
+							<a href={`/blog/${featuredPost.id}/`}>
+								{featuredPost.data.heroImage && (
+									<img src={featuredPost.data.heroImage} alt="" loading="lazy" />
+								)}
+								<h4 class="title">{featuredPost.data.title}</h4>
+								<p class="date">
+									<FormattedDate date={featuredPost.data.pubDate} />
+								</p>
+								{featuredPost.data.tags && featuredPost.data.tags.length > 0 && (
+									<p class="tags">
+										{featuredPost.data.tags.map((tag) => (
+											<span>{tag}</span>
+										))}
+									</p>
+								)}
+							</a>
+						</li>
+					)}
 					{
 						posts.map((post) => (
 							<li>
@@ -158,6 +193,11 @@ const tags = [...tagCounts.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 						))
 					}
 				</ul>
+				{hasNextPage && (
+					<nav class="pager" aria-label="Blog pagination">
+						<a href="/blog/page/2/">Next</a>
+					</nav>
+				)}
 			</section>
 		</main>
 		<Footer />
