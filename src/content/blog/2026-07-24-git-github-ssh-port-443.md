@@ -6,33 +6,25 @@ heroImage: "/images/2026-07-24-hotel-wifi-broke-git-pull/preview.png"
 tags: [terminal, cli, git, github, ssh]
 ---
 
-## Git pull just hung there
+## Git pull does not work
 
-I was working from a hotel and ran `git pull, it got stucked. 
+I was working from a hotel and ran `git pull`, it got stucked. 
 
-After a while I got:
+My first thought was that I had broken the repository, but the repo was right, the remote was correct, and my key was already loaded in `ssh-agent`.
 
-```
-ssh: connect to host github.com port 22: Connection timed out
-```
+I tried with a Smartphone hotspot Wi-Fi and worked.
 
-My first thought was that I had broken the repository. 
-
-The repo was clean, the remote was correct, and my key was already loaded in `ssh-agent`.
-
-The useful clue was **timeout**, the connection never reached GitHub's SSH server.
-
-I tested SSH directly:
+Then I tested SSH directly:
 
 ```bash
 ssh -T git@github.com
 ```
 
-Same timeout. DNS worked, but the connection to `github.com:22` did not.
+Got a Timeout. DNS worked, but the connection to `github.com:22` did not.
 
-## The other door into GitHub
+## Using SSH over the HTTPS port
 
-GitHub has a second SSH endpoint on port 443, made for networks like this one:
+GitHub has a second [SSH endpoint on port 443](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port), made for networks like this one:
 
 ```bash
 ssh -T -p 443 git@ssh.github.com
@@ -46,9 +38,9 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 
 Problem found. Port 22 was blocked; port 443 was open.
 
-On the first connection, SSH may ask you to confirm GitHub's host key. Do not blindly accept it. Compare the fingerprint with GitHub's published SSH key fingerprints first.
+On the first connection, SSH may ask you to confirm GitHub's host key, check it's fine and go ahead.
 
-## Make it permanent
+## Fix it permanently
 
 I did not want to remember a special command or change every Git remote, so I added this to `~/.ssh/config`:
 
@@ -116,6 +108,9 @@ ssh -T git@github-personal.com
 git clone git@github-personal.com:work-account/repository.git
 ```
 
-## I am leaving it on
+## Summary
 
-There is no meaningful security downside here, and the config only affects GitHub. I am keeping it. The next hotel Wi-Fi can block port 22 all it wants.
+- Some Public Wi-Fi's block port 22 - be aware there is nothing wrong on your config
+- There is no meaningful security downside here, and the config only affects GitHub. I am keeping it. The next hotel Wi-Fi can block port 22 all it wants.
+
+
