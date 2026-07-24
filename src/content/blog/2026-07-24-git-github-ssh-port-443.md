@@ -96,6 +96,14 @@ Host github.com
     User git
     IdentityFile ~/.ssh/id_ed25519
     IdentitiesOnly yes
+
+# Personal GitHub account
+Host github-personal
+    HostName ssh.github.com
+    Port 443
+    User git
+    IdentityFile ~/.ssh/id_ed25519_personal
+    IdentitiesOnly yes
 ```
 
 The aliases and repository URLs do not change:
@@ -103,6 +111,9 @@ The aliases and repository URLs do not change:
 ```bash
 ssh -T git@github.com
 git clone git@github.com:work-account/repository.git
+
+ssh -T git@github-personal.com
+git clone git@github-personal.com:work-account/repository.git
 ```
 
 ## I am leaving it on
